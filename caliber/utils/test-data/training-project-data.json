@@ -1,0 +1,23 @@
+{
+    "project": {
+        "associateProject": [
+            "Automated Test Project"
+        ],
+        "traineeProject": [],
+        "candiateProject": []
+    },
+    "batch": {
+        "currentBatch": []
+    },
+    "Curriculum": {
+        "activeCurriculum": [
+            "Auto_Test_Curriculum_Project_Assignment1604475802906"
+        ]
+    },
+    "users": {
+        "user1": [
+            "revtek1604475411982@mailinator.com"
+        ],
+        "user2": []
+    }
+}

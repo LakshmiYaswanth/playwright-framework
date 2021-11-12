@@ -1,0 +1,24 @@
+{
+  "project": {
+    "trainee": [
+      "Movie Theater Management System",
+      "Developer Hub",
+      "Associate Portfolio Manager",
+      "Bakery Goods Management System",
+      "CaterUpon"
+    ],
+    "candidate": [
+      "PubHub 100",
+      "eZoo 100",
+      "Introduction to Programming and Java"
+    ]
+  },
+  "course": ["Core java", "Angular JS", "UML Basics", "Hibernate"],
+  "quiz": [
+    "Introduction to Programming",
+    "Angular 2 Introduction",
+    "Big Data",
+    "Spring - SPARK"
+  ],
+  "plan": ["Reg", "Plan"]
+}

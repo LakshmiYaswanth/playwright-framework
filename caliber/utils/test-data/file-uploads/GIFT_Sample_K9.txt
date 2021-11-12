@@ -1,0 +1,47 @@
+// an example of a true/false question
+::ATK True/False Question:: 
+Is water not clear?
+{T 
+ #This is an explanation if the user selects the wrong answer
+ #This is an explanation if the user selects the correct answer 
+} 
+
+// multiple choice
+::ATK Multiple-choice Question::
+What colors are not part of ROYGBIV { 
+	~%25% Red
+	~%25% Orange
+	~%-25% Pink
+	~%25% Indigo
+	~%-25% Brown
+	~%25% Blue
+}
+
+// matching
+::ATK Example Matching Question::
+Match the following with the definition { 
+ =Encapsulation -> data-hiding
+ =Abstraction -> creating a generalized form of an entity
+ =Inheritance -> the support for children and parent classes
+ =Polymorphism -> literally many forms
+}
+
+// best choice
+::ATK Example Best Choice Question::
+What is the meaning of entire life? {
+ ~ to eat #this is an explanation
+ = 42 #this is a wonderful explanation
+ ~ to program #this is another explanation
+ ~ to eat and program. #close but it should be a number. 
+}
+
+// numerical
+::ATK Example Numerical Question following::
+What is the median of this number series:
+1,2,2,3,4,5,6{
+  #3
+}
+
+// short-answer
+::ATK Example Short Answer Question in following:: 
+Explain the four principles of OOP. {}

@@ -1,0 +1,13 @@
+{
+  "testdata": {
+    "name": {
+      "name": "test"
+    },
+    "email": {
+      "email": "test@yopmail001.com"
+    },
+    "phone":{
+      "phone": "9876543"
+    }
+  }
+}

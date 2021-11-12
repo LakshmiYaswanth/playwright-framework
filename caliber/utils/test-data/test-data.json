@@ -1,0 +1,435 @@
+
+{
+  "testData": {
+    "environment": {
+      "Url": "https://qa.revature.com"
+    },
+    "restAPI": {
+      "signupAPI": "https://qa-ms.revature.com/security/revtek/public/signup",
+      "getTokenAPI": "https://qa.revature.com/core/resources/user/userDetails",
+      "normalAPI": "https://qa-ms.revature.com/security/revtek/signup"
+    },
+    "signup": {
+      "firstName": "yopopopop",
+      "lastName": "testuser",
+      "email": "yopop0004@yopmail.com",
+      "aliasName": "REV",
+      "password": "Pass123$",
+      "contactNo": "988-456-7890",
+      "passedOutMonth": "June",
+      "passedOutYear": "2022",
+      "university": {
+        "id": 2,
+        "name": "George Mason University"
+      },
+      "major": {
+        "id": 33,
+        "name": "Business Management"
+      }
+    },
+    "profile": {
+      "profileName": "yopop00008",
+      "secondaryEmail": "yopopop0072@yopmail.com",
+      "phoneNo": "123-456-7890",
+      "errorphoneNo": "abcd!@#$%&",
+      "gitUserName": "yopmailtester",
+      "errorphoneNoinLength": "9123456789456",
+      "properPhoneNoLength": "912-345-6789",
+      "indiaPinCode": "123456",
+      "usaZipCode": "12345",
+      "canadaZipCode": "K1A 0B1",
+      "countryUs": "USA",
+      "countryIndia": "INDIA",
+      "currentIndianCity": "Chennai",
+      "currentIndianState": "Tamil Nadu",
+      "currentUSCity": "SCHENECTADY",
+      "currentUSState": "New York",
+      "graduationYear": "2021",
+      "degree": "Bachelor",
+      "major": "Artificial Intelligence",
+      "otherMajor": "Major For Test",
+      "otherDegree": "Degree For Test",
+      "otherMilitaryStatus": "Military Status For Test",
+      "desiredPay": "6000",
+      "errorDesiredPay": "NothingtoPay",
+      "lengthOfDesiredPay": "9874563219",
+      "properLengthOfDesiredPay": "9874563219",
+      "minmLengthDesiredPay": "1",
+      "invalidCurrentPassword": "abcdef",
+      "currentPassword": "Pass123$",
+      "newPassword": "Pass1234",
+      "otherSource": "Source For Test"
+    },
+    "courses": {
+      "name": "CSS",
+      "category": "General",
+      "categoryHeading": "General (Member) Courses",
+      "courseHeading": "Algorithms and Data Structures",
+      "courseHeading1": "Introduction to Java",
+      "courseHeading2": "Introduction to JavaScript",
+      "courseDescription": "Algorithms and Data Structures are incredibly important concepts to software development - in fact, many programming job interviews focus solely on these two things. This course is a basic rundown of some of the core concepts to get you started.",
+      "courseLevel": "Level 100",
+      "mostViewedCategoryHeading": "Most Viewed (Member) Courses",
+      "searchInOpen": "automation-pre-signup-course-donot-clone-or-edit",
+      "openCourseHeading": "An introduction to BackboneJS",
+      "defaultImage": "vid-grid",
+      "defaultImageCourseName": "Course_Test_check_1",
+      "video1NameMemberCourse": "Test Video 1",
+      "video2NameMemberCourse": "Saving information to a browser with HTML",
+      "enrollmentPoints": 100,
+      "completionPoints": 99,
+      "nowPlayingText": " Now Playing",
+      "inProgressText": " Inprogress",
+      "completedText": "Completed",
+      "completedTextCaps": "COMPLETED",
+      "fileTitle": "Sample content to display.",
+      "fileName": "png",
+      "descriptionTagContent": "This video introduces algorithms and data structures - key parts of modern application development - and discusses why they are important.",
+      "codeContent": " sample-program",
+      "refDocContent": " sample-artifact",
+      "refLinkContent": " Google",
+      "noDescription": "There is no description associated with this",
+      "noSampleCode": "There are no sample codes associated with this",
+      "noRefDoc": "There are no reference documents associated with this",
+      "noRefLink": "There are no reference links associated with this",
+      "codeHover": "sample-program description",
+      "docHover": "artifact description",
+      "linkHover": "google reference",
+      "resumeBtnText": "Resume",
+      "CompletedBtnText": "Completed",
+      "courseNames": [
+        "Connecting .NET Applications to SQL Server with ADO.NET",
+        "Introduction to Programming",
+        "Gulp"
+      ],
+      "courseBtn": "Details",
+      "projectCourse": "An Introduction to HTML5",
+      "courseProjectTitle": "automation-testing",
+      "courseToDownloadFiles": "Java",
+      "allLevelsCourse": "Servlets and JSPs",
+      "higherLevelCourse": "automation-higher-level-videos-level-over-ride-donot-clone-or-edit",
+      "higherLevelCourseLevelOverRide": "automation-higher-level-videos-donot-clone-or-edit",
+      "level200VideosIn100LevelCourse": "automation-level-200-videos-donot-clone-or-edit-delete",
+      "level300VideosInCourse": "automation-level-300-videos-donot-clone-or-edit",
+      "level200Course": "Node JS",
+      "level300Course": "Angular JS",
+      "automationProject": "automation-testing-project",
+      "completeProjToWatchVideo": "Complete a project to watch this video.",
+      "projectcourse": "Dashboard project with course",
+      "course200LevelProject": "automation-testing-project-level-200-donot-clone-or-edit",
+      "enrollProjectCourse": "automation-enroll-project-course-donot-clone-or-edit",
+      "enrollProject": "eZoo 100"
+    },
+    "quizzes": {
+      "name": "Java assessment of testing data with conditions--copy--copy",
+      "id": "1484"
+    },
+    "projects": {
+      "name": [
+        "PubHub 100",
+        "7171",
+        "Project",
+        "auto migrate project"
+      ]
+    },
+    "login": {
+      "userName": "revtek1578913190081@yopmail.com",
+      "deactivateUserName": "zuheb_test5@mailinator.com",
+      "password": "Pass123$"
+    },
+    "coreLogin": {
+      "username": "apitestsystemadmin@yopmail.com",
+      "password": "Pass123$"
+    },
+    "portfolio": {
+      "name": "PortfolioRevTek001",
+      "jobTitle": "Junior QA",
+      "aboutMe": "Brief Description About the Portfolio",
+      "updatedAboutMe": "Brief Description Updated About the Portfolio",
+      "degree": "Associate",
+      "otherMajor": "Major For Test",
+      "otherDegree": "Degree For Test",
+      "passYear": "2010",
+      "internGPA": "7.0",
+      "addnlInfo": "Information about Additional Educations",
+      "certifications": [
+        "Employee Certificate",
+        "Employee Certificate1",
+        "Employee Certificate2",
+        "Employee Certificate3",
+        "Employee Certificate4"
+      ],
+      "updatedCertifications": [
+        "Best Employee Certificate",
+        "Best Employee Certificate1"
+      ],
+      "certificationNo": "Emp12345",
+      "issuedBy": "Employer",
+      "issuedOn": "12-01-2017",
+      "publicURL": "https://revature.com",
+      "skillCategoryName": [
+        "Java",
+        "Adv.Java",
+        ".Net",
+        "C#"
+      ],
+      "editedSkillCategoryName": "Python(Edited)",
+      "skillCourseName": [
+        "Connecting .NET Applications to SQL Server with ADO.NET",
+        "Introduction to Programming",
+        "Algorithms and Data Structures",
+        "Introduction to Java"
+      ],
+      "skillCourseNameCustom": "Custom",
+      "customCourseName": "Introduction To CSS",
+      "editedCustomCourseName": "Introduction To Angular(Edited)",
+      "skillCourseExpInMonth": "12",
+      "editedSkillCourseExpInMonth": "15",
+      "employerName": [
+        "Employer1",
+        "Employer2",
+        "Employer3",
+        "Employer4",
+        "Employer5",
+        "Employer6",
+        "Employer7",
+        "Employer8",
+        "Employer9",
+        "Employer10",
+        "Employer11",
+        "Employer12"
+      ],
+      "newEmployerName": [
+        "NewEmployer1",
+        "NewEmployer2",
+        "NewEmployer3",
+        "NewEmployer4",
+        "NewEmployer5"
+      ],
+      "workExperienceFromDateMonthYear": "01-02-2007",
+      "newWorkExperienceFromDateMonthYear": "01-02-2009",
+      "workExperienceToDateMonthYear": "02-06-2017",
+      "newWorkExperienceToDateMonthYear": "02-06-2013",
+      "newJobTitle": "QAT",
+      "clientProjectTitle": [
+        "RevTek1",
+        "RevTek2",
+        "RevTek3",
+        "RevTek4",
+        "RevTek5",
+        "RevTek6",
+        "RevTek7"
+      ],
+      "newClientProjectTitle": "RevTekPro",
+      "clientProjectFromDateMonthYear": "01-02-2007",
+      "newClientProjectFromDateMonthYear": "01-02-2009",
+      "clientProjectToDateMonthYear": "02-06-2017",
+      "newClientProjectToDateMonthYear": "02-06-2016",
+      "clientProjectRole": "QAA",
+      "newClientProjectRole": "QCC",
+      "clientProjectResponsibilities": "Less Errors in App",
+      "newClientProjectResponsibilities": "Error Less App",
+      "clientProjectProjectDetails": "Regarding New Technology",
+      "newClientProjectProjectDetails": "Carrer Builing Technology",
+      "clientProjectToolsAndTechnologies": "AngularJS",
+      "newClientProjectToolsAndTechnologies": "Core Java",
+      "clientProjectProblemArea": "Connected To Social Media",
+      "newClientProjectProblemArea": "Popular Among Only In Universities",
+      "projectTechnologies": [
+        "Java 8",
+        "CSS 3"
+      ],
+      "projectResponsibilities": [
+        "Test answer e2e",
+        ", Test Answer"
+      ],
+      "otherEmployerName": [
+        "OtherEmployer1",
+        "OtherEmployer2",
+        "OtherEmployer3",
+        "OtherEmployer4",
+        "OtherEmployer5",
+        "OtherEmployer6",
+        "OtherEmployer7",
+        "OtherEmployer8"
+      ],
+      "newOtherEmployerName": [
+        "newOtherEmployer1",
+        "newOtherEmployer2",
+        "newOtherEmployer3",
+        "newOtherEmployer4",
+        "newOtherEmployer5"
+      ],
+      "otherExperienceFromDateMonthYear": "01-02-2009",
+      "newOtherExperienceFromDateMonthYear": "01-02-2010",
+      "otherExperienceToDateMonthYear": "05-05-2014",
+      "newOtherExperienceToDateMonthYear": "25-09-2017",
+      "otherJobTitle": "OtherJobTitle1",
+      "newOtherJobTitle": "OtherJobTitle2",
+      "newOtherProjectTitle": "RevaturePro",
+      "otherProjectFromDateMonthYear": "01-02-2010",
+      "newOtherProjectFromDateMonthYear": "01-06-2014",
+      "otherProjectToDateMonthYear": "02-06-2013",
+      "newOtherProjectToDateMonthYear": "20-09-2017",
+      "otherProjectRole": "QAA",
+      "newOtherProjectRole": "QAT",
+      "otherProjectResponsibilities": "Less Errors in App",
+      "newOtherProjectResponsibilities": "Find Errors in App",
+      "otherProjectDetails": "Regarding New Technology",
+      "newOtherProjectDetails": "Implement New Technology",
+      "otherProjectToolsAndTechnologies": "AngularJS",
+      "newOtherProjectToolsAndTechnologies": "WebServices",
+      "otherProjectProblemArea": "Connected To Social Media",
+      "newOtherProjectProblemArea": "Not To Use As Cross Platform",
+      "awardsTitle": [
+        "Employee1",
+        "Employee2",
+        "Employee3",
+        "Employee4",
+        "Employee5",
+        "Employee6",
+        "Employee7"
+
+      ],
+      "newAwardsTitle": [
+        "Best Employee1",
+        "Best Employee2"
+      ],
+      "awardsDescription": "Skill Full Employee",
+      "newAwardsDescription": "Emerging Employee",
+      "receivedFrom": "Major",
+      "newReceivedFrom": "Lead",
+      "receivedOn": "21-12-2016",
+      "newReceivedOn": "21-08-2017",
+      "sharePortfolioEmailId": "mailsd1000@yopmail.com"
+    },
+    "ticket": {
+      "summary": "This is auto generated summary.",
+      "description": "This is auto generated description.",
+      "comment": "This is auto ticket updation.",
+      "successfullyCreated": "Ticket Saved Successfully"
+    },
+    "title": {
+      "dashboard": "RevaturePro - Dashboard",
+      "coursesPage": "RevaturePro - Member Courses",
+      "individualCoursePage": "RevaturePro - CSS",
+      "quiz": "RevaturePro - Member Quizzes",
+      "individualQuizPage": "RevaturePro - HTML - Dashboard",
+      "projectListPage": "RevaturePro - Projects",
+      "individualProjectPage": "RevaturePro - Project Overview",
+      "projectPage": "RevaturePro - Dive Introduction",
+      "myActivitiesDefaultPage": "RevaturePro - My Quizzes",
+      "myActivitiesCoursesPage": "RevaturePro - My Courses",
+      "myActivitiesProjectsPage": "RevaturePro - My Projects",
+      "myActivitiesAssignedActivitiesPage": "RevaturePro - Assigned Activities",
+      "ticketsPage": "RevaturePro - My Tickets",
+      "ticketCreationPage": "RevaturePro - Ticket",
+      "updateTicketPage": "RevaturePro - Update Tickets",
+      "profilePage": "RevaturePro - Profile",
+      "portfolioPage": "RevaturePro - Portfolio",
+      "openCoursePage": "RevaturePro - Open Courses",
+      "individualOpenCoursePage": "RevaturePro - automatio",
+      "individualMemberCoursePage": "RevaturePro - Algorithms and Data Structures",
+      "criticalError": "Oops!",
+      "curriculumPage": "RevaturePro - Curriculum",
+      "individualPreSignUpCourse": "RevaturePro - automation-pre-signup-course-donot-clone-or-edit",
+      "individual200LevelCourse": "RevaturePro - automation-level-200-videos-donot-clone-or-edit",
+      "level200Course": "RevaturePro - automation-level-200-donot-clone-or-edit"
+    },
+    "attachment": {
+      "html": [
+        "about.html"
+      ],
+      "zip": [
+        "test-zip.zip"
+      ],
+      "png": [
+        "automation-testing-image.png"
+      ],
+      "exe": [
+        "sample.exe"
+      ],
+      "docx": [
+        "TEST.docx"
+      ],
+      "pdf": [
+        "TEST.pdf"
+      ],
+      "pptx": [
+        "TEST.pptx"
+      ],
+      "txt": [
+        "test-attachment.txt"
+      ],
+      "rar": [
+        "test-rar.rar"
+      ],
+      "tar": [
+        "test-tar.tar"
+      ],
+      "jpg": [
+        "img_01.jpg"
+      ],
+      "sql": [
+        "query.sql"
+      ],
+      "doc": [
+        "TEST.doc"
+      ],
+      "xlsx": [
+        "TEST.xlsx"
+      ],
+      "ppt": [
+        "TEST.ppt"
+      ],
+      "url":[
+        "https://qa2.revature.com/core/admin/pages/projects",
+        "content/servlets/servlets-http-status-codes.htm",
+        "content/servlets/servlets-httpps-status-codes.htm"
+      ],
+      "types": [
+        "img_01.jpg",
+        "automation-testing-image.png",
+        "sample.exe",
+        "TEST.docx",
+        "TEST.pdf",
+        "TEST.pptx",
+        "test-attachment.txt",
+        "test-rar.rar",
+        "test-tar.tar",
+        "test-zip.zip"
+      ],
+      "scripts": [
+        "docx-upload.exe",
+        "exe-upload.exe",
+        "jpg-upload.exe",
+        "pdf-upload.exe",
+        "png-upload.exe",
+        "pptx-upload.exe",
+        "rar-upload.exe",
+        "tar-upload.exe",
+        "txt-upload.exe",
+        "zip-upload.exe",
+        "assessment-upload.exe",
+        "import-project.exe",
+        "exceed-file-size.exe"
+      ]
+    },
+    "mentor": {
+      "nameUSA": "Automation Mentor Automation Mentor",
+      "nameINDIA": "Automation Mentor India Automation Mentor India",
+      "enrollmentAdmin": "Vighnesh S",
+      "transferedMentor": "Automation Super Admin"
+    },
+    "systemUsersTableHeadings": [
+      "S.No",
+      "Full Name",
+      "Username",
+      "Email",
+      "Last Logged In Time",
+      "Role",
+      "Status",
+      "Action"
+    ]
+  }
+}

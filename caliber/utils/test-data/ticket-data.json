@@ -1,0 +1,20 @@
+{
+    "tickets": {
+        "TestSummary": "This is auto generated summary",
+        "TestUser": {
+            "Username": "frontendtestuser@yopmail.com",
+            "Password": "Pass123$"
+        },
+        "TestDescription": "This is auto generated description",
+        "TestComment": "This is auto generated comment",
+        "TestTransferReason": "This is auto generated reason",
+        "login": {
+            "Username": "testuserta@yopmail.com",
+            "Password": "Pass123$"
+        },
+        "TransferUserLogin": {
+            "Username": "transferticketuser@yopmail.com",
+            "Password": "Pass123$"
+        }
+    }
+}

@@ -1,0 +1,51 @@
+{
+  "quizzes": {
+    "names": [
+      "C# - Constructors & References",
+      "ASP.NET Web Forms - Master Pages",
+      "ASP.NET Web Forms - Validation Controls",
+      "C# - Inheritance",
+      "CSS - Dashboard",
+      "Core Java Quiz",
+      "JavaScript - Dashboard",
+      "HTML - Dashboard"
+    ],
+    "defaultInstructions": [
+      "When taking the quiz you will be able to see how much time you have remaining",
+      "When you have completed the quiz click finish button to record your answers",
+      "You will receive marks on completion of the quiz",
+      "Conclusion & Notes."
+    ],
+    "login": {
+      "Username": "trainingadmin@yopmail.com",
+      "Password": "Pass123$"
+    },
+    "quiz": {
+      "name": "Test Quiz Automation ",
+      "tags": "Tag001",
+      "points": "100",
+      "maxAttempt": [
+        "01",
+        "11",
+        "999",
+        "100"
+      ],
+      "level": "Level 100",
+      "percentage": [
+        "100",
+        "075",
+        "050",
+        "001"
+      ],
+      "Description": "Test Assessment Description",
+      "categoryName": "java",
+      "poolNameA": "Test Pool A ",
+      "maxQuestion": "3 ",
+      "assessmentSearch": "draft",
+      "publishQuizSearch": "Published",
+      "deleteDependencyQuiz": "1709JTA_TJAC_Test2",
+      "deleteQuizWithoutDependency": "Draft",
+      "subscribedQuiz": "Core Java Quiz Subscribed"
+    }
+  }
+}

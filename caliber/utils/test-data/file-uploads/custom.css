@@ -1,0 +1,497 @@
+/*********************************Purplin Theme Starts Here*************************************/
+
+/* Banner */
+body.custom-theme .yellow-bg /* Hovering effect of icon surrounded by a circle in dashboard page */ {
+	background-color: #6a3093 !important;
+}
+
+/* Primary Button */
+body.custom-theme .btn-primary, .custom-theme .new-dashboard .btn-info, body.custom-theme .welcome-message-buttons .btn-info /* Color of primary buttons in all the pages */ {
+	background-color: #7c40a7 !important;
+	border-color: #7c40a7 !important;
+}
+body.custom-theme .btn-primary:hover, body.custom-theme .btn-primary:focus, body.custom-theme .btn-primary.focus, body.custom-theme .btn-primary:active, body.custom-theme .btn-primary.active, body.custom-theme .open > .dropdown-toggle.btn-primary /* Hovering and focussing (moving mouse over the button) effect of the primary buttons in all the pages */ {
+	background-color: #8a33c6 !important;
+	border-color: #8a33c6 !important;
+	color: #fff !important;
+}
+/* Panel Header */
+body.custom-theme .bg-gray /* Background color of panel heading in containers */ {
+	background-color: #dddddd !important;
+}
+/* Scroll-Up Button */
+body.custom-theme .scrollup /* Scroll-up button in the right end corner */ {
+	background-color: #7c40a7;
+}
+body.custom-theme .scrollup:hover  /* Hovering effect of scroll-up button in the right end corner */ {
+	background-color: #8339b7;
+}
+/* Badges */
+body.custom-theme .stu-label /* Color of student badge in dashboard page */ {
+	background-color: #fc6767;
+	color: #ffffff;
+	padding: 2px 10px;
+}
+body.custom-theme .btn-warning /* Color of the levels of all courses, projects and quizzes lists */ {
+	background-color: #fc6767;
+}
+/* Progress Bar*/
+body.custom-theme .progress /* Background color of project progress bar in dashboard page */ {
+	border-radius: 20px;
+	height: 25px;
+	line-height: 14px;
+	box-shadow: 2px 2px 2px 0px #d15454;
+	background-color: #fc6767;
+}
+body.custom-theme .progress-bar  /* Progress color of project progress bar in dashboard page */ {
+	background-color: #d15454;
+}
+/* Navbar */
+body.custom-theme .navbar-default .navbar-nav > .active > a, body.custom-theme .navbar-default .navbar-nav > .active > a:hover, body.custom-theme .navbar-default .navbar-nav > .active > a:focus  /* Color and Hovering effect of menus in navbar */ {
+	color: #fc6767;
+	font-weight: 600 !important;
+}
+/* Nav-tab */
+body.custom-theme .nav-tabs>li.active>a, body.custom-theme .nav-tabs>li.active a:focus, body.custom-theme .nav-tabs>li.active a:hover /* Color and Hovering effect of menus in tabs */ {
+	color: #ff5858;
+}
+/* My activities Navigation (sidenav) */
+body.custom-theme .list-group-item.active, body.custom-theme .list-group-item.active:hover, body.custom-theme .list-group-item.active:focus  /* Color and Hovering effect of menus in left side navigation in all the modules */ {
+	background-color: #6a3093;
+	border-color: #6a3093;
+}
+body.custom-theme li.active .courses-tab /* Color of active tab in courses tab menu */ {
+	font-size: 18px;
+	color: #fc6767 !important;
+	font-weight: 600;
+	border: 1px solid #fc6767 !important;
+}
+/* Media Button Circle */
+body.custom-theme .btn-circle.img-circle.bg-green-300:hover /* Hovering effect of icon surrounded by a circle in dashboard page */ {
+	color: #fc6767;
+	background-color: #ffffff;
+	border: 2px solid #fc6767;
+	font-size: 21px;
+}
+body.custom-theme .btn-circle.img-circle.bg-green-300 /* Color of icon surrounded by a circle in dashboard page */ {
+	color: #ffffff;
+	background-color: #fc6767;
+	width: 36px;
+	height: 36px;
+	line-height: 36px;
+}
+body.custom-theme .icon-block.half.img-circle.bg-primary /* Color of play button in empty MyActivities page */ {
+	background: #fc6767;
+}
+body.custom-theme .fa.fa-question-circle /* Color of questions icon(help icon) in all the pages */ {
+	color: #fc6767 !important;
+}
+/* Form Elements */
+body.custom-theme .form-control-material .form-control:focus /* Focusing color of input types in forms */ {
+	border-bottom: 2px solid #fc6767;
+	height: 32px;
+	transition: none;
+}
+body.custom-theme .checkbox-success input[type="checkbox"]:checked+label::before /* Color of checkbox once it is checked */ {
+	background-color: #fc6767;
+	border-color: #fc6767;
+}
+body.custom-theme .radio-success input[type="radio"]:checked+label::before /* Color of radio button once it is checked */ {
+	border-color: #fc6767;
+}
+body.custom-theme .form-control.ticket-text-area /* Border color of text area in ticket pop-up */ {
+	border-bottom: 2px solid #fc6767 !important;
+}
+body.custom-theme .select2-drop.select2-drop-above .select2-search input:hover /* Border color of search select dropdown while hovering on it */ {
+	border-bottom: 2px solid #fc6767 !important;
+}
+body.custom-theme .checkbox input[type="checkbox"]:focus+label::before {
+	outline: none;
+}/* Video play button */
+body.custom-theme .embed-play.preview-overlay.video-preview::before /* Background color of play button in all the teaser videos */ {
+	background-color: #fc6767;
+}
+/* Bootcamp project details */
+body.custom-theme .content-suggestions .box-content.secondary .achievement-steps li a i /* Color of all sprint icons of project progress in Dashboard */ {
+	color: #fc6767;
+	font-size: 21px;
+}
+body.custom-theme .content-suggestions .box-content.secondary .achievement-steps li a:hover /* Hovering effect of all sprint icons of project progress in Dashboard */ {
+	background-color: #E8E8E8;
+}
+body.custom-theme .dashcurract /* Styles to highlight the inprogress sprint activity */ {
+	border: #E8E8E8 1px solid !important;
+	border-bottom: #E8E8E8 1px solid !important;
+	margin-bottom: 0px;
+	background: #c8c8c8 !important;
+	color: #d15454 !important;
+}
+body.custom-theme .dashcurract .dash-sprint-title strong /* Styles to highlight the inprogress sprint activity name */ {
+	color: #d15454 !important;
+}
+body.custom-theme .custom-headline  /* Styles of the column name in inprogress sprint activity */ {
+	font-size: 16px !important;
+	font-weight: 600;
+	color: #707070;
+}
+/* Progress bar container */
+body.custom-theme .als-container /* Style of Project sprint navigation bar */ {
+	margin: 10px auto;
+}
+/* Projects container header */
+body.custom-theme .theme-headline /* Color of project sprint activity heading */ {
+	color: #212121 !important;
+}
+body.custom-theme .theme-bg-gray /* Background color of project sprint activity heading */ {
+	background-color: #dddddd !important;
+}
+/* recent activities */
+body.custom-theme .recent-avtivities-theme /* Recent Activities style in dashboard page */ {
+	background-color: #dddddd !important;
+}
+body.custom-theme .recent-avtivities-theme h3 /* Recent Activities style in dashboard page */ {
+	font-size: 19px;
+	font-weight: 600;
+	color: #fc6767;
+}
+/* Footer */
+body.custom-theme .footer {
+	-moz-box-shadow: -5px -5px 5px #E3E3E3;
+	-webkit-box-shadow: -5px -5px 5px #E3E3E3;
+	box-shadow: -5px -5px 5px #E3E3E3;
+}
+/*feedback Button*/
+body.custom-theme .atlwdg-trigger.atlwdg-RIGHT /* Style of fixed feedback button in the right side */ {
+	z-index: 9;
+}
+/* Breadcrumb */
+body.custom-theme .cd-breadcrumb li.current>*, body.custom-theme .cd-multi-steps li.current>* /* Color of breadcrumb in all the pages */ {
+	color: #fc6767;
+}
+body.custom-theme .cd-breadcrumb li a:hover, body.custom-theme .cd-multi-steps li a:hover  /* Hovering effect of breadcrumb in all the pages */ {
+	color: #fc6767 !important;
+}
+body.custom-theme ul.breadcrumb-curriculum-project li a:hover /* Style of breadcrumb in all the pages */ {
+	color: #fc6767;
+	text-decoration: none !important;
+}
+body.custom-theme li .current /* Style of breadcrumb in all the pages */ {
+	color: #fc6767;
+}
+/* Notification message babge */
+body.custom-theme .notifications .label-success /* Style of elements in notification container in all the pages */ {
+	background-color: #fc6767;
+}
+body.custom-theme .notifications .badge.badge-primary /* Style of elements in notification container in all the pages */ {
+	background: #fc6767;
+	color: #fff;
+}
+body.custom-theme li.notifications a:hover i, body.custom-theme li.notifications a .fa.fa-bell-o:hover /* Style of notification bell icon in all the pages */ {
+	color: #fc6767 !important;
+}
+body.custom-theme .dropdown .dropdown-menu.cust-drpdown >li>a:hover i /* Style of dropdown in notification container in all the pages */ {
+	color: #fc6767;
+}
+/* Remove focus outline */
+body.custom-theme *:focus, body.custom-theme .bootstrap-select .btn:focus, body.custom-theme input[type=file]:focus /* Style to remove focus effect */ {
+	outline: 0 !important;
+	outline-offset: 0 !important;
+}
+/* No background */
+body.custom-theme .no-bg /* Style to remove background color */ {
+	background-color: transparent !important;
+}
+/* Video in-progress */
+body.custom-theme .video-status-in-progress /* Color of video-status-in-progress icon */ {
+	color: #fc6767 !important;
+}
+/* img-circle buttons*/
+body.custom-theme .bg-grey-500 /* background color */ {
+	background-color: #666666;
+}
+body.custom-theme .bg-grey-500:hover /* Hovering effect of background color */ {
+	background-color: transparent;
+	color: #666666;
+	border: 2px solid #666666;
+	font-weight: 600;
+}
+body.custom-theme .bg-indigo-300 /* background color */ {
+	background-color: #3957f7;
+}
+body.custom-theme .bg-indigo-300:hover /* Hovering effect of background color */ {
+	background-color: transparent;
+	color: #3957f7;
+	border: 2px solid #3957f7;
+	font-weight: 600;
+}
+body.custom-theme .bg-green-300 /* background color */ {
+	background-color: #44b649;
+}
+body.custom-theme .bg-green-300:hover /* Hovering effect of background color */ {
+	background-color: transparent;
+	color: #44b649;
+	border: 2px solid #44b649;
+	font-weight: 600;
+}
+body.custom-theme .bg-red-300 /* background color */ {
+	background-color: #fb4545;
+}
+body.custom-theme .bg-red-300:hover /* Hovering effect of background color */ {
+	background-color: transparent;
+	color: #fb4545;
+	border: 2px solid #fb4545;
+	font-weight: 600;
+}
+body.custom-theme .bg-orange-300 /* background color */ {
+	background-color: #fca72a;
+}
+body.custom-theme .bg-orange-300:hover /* Hovering effect of background color */ {
+	background-color: transparent;
+	color: #fca72a;
+	border: 2px solid #fca72a;
+	font-weight: 600;
+}
+body.custom-theme .bg-purple-300 /* background color */ {
+	background-color: #d94af1;
+}
+body.custom-theme .bg-purple-300:hover /* Hovering effect of background color */ {
+	background-color: transparent;
+	color: #d94af1;
+	border: 2px solid #d94af1;
+	font-weight: 600;
+}
+body.custom-theme .btn-white /* background color */ {
+	color: #fc6767;
+	background-color: #fff !important;
+	border-color: #fff !important;
+}
+body.custom-theme .btn-white:hover, body.custom-theme .btn-white:focus, body.custom-theme .btn-white.focus, body.custom-theme .btn-white:active, body.custom-theme .btn-white.active, body.custom-theme .open>.dropdown-toggle.white-900  /* Hovering effect of background color */ {
+	color: #ffffff;
+	background-color: #fc6767 !important;
+	border-color: #fc6767 !important;
+}
+body.custom-theme .btn-grey-900:hover, body.custom-theme .btn-grey-900:focus, body.custom-theme .btn-grey-900.focus, body.custom-theme .btn-grey-900:active, body.custom-theme .btn-grey-900.active, body.custom-theme .open>.dropdown-toggle.btn-grey-900 /* Hovering effect of background color */ {
+	color: #fc6767;
+	background-color: #fff !important;
+	border-color: #fff !important;
+}
+/* Success button */
+body.custom-theme .btn-success /* Style of success button */ {
+	background-color: #4caf50;
+	border-color: #4caf50;
+}
+body.custom-theme .btn-success:hover /* Style of success button */ {
+	background-color: #4caf50;
+}
+/* Enrollment checklist checkbox */
+body.custom-theme .parent-popbtn .btn-success /* Background color of success button in Enrollment checklist checkbox */ {
+	background-color: transparent !important;
+	border: none !important;
+}
+body.custom-theme .parent-popbtn .btn-success .fa-check, body.custom-theme .parent-popbtn .btn-success .fa-check:hover /* Hovering effect of success button in Enrollment checklist checkbox */ {
+	color: white;
+	background-color: #fc6767;
+	border: 2px solid #fc6767;
+	border-radius: 3px;
+}
+body.custom-theme .parent-popbtn .btn-danger, body.custom-theme .parent-popbtn .btn-danger:hover /* Background color of danger button in Enrollment checklist checkbox */ {
+	color: white !important;
+	background-color: #bd362f;
+	border-color: #bd362f;
+}
+body.custom-theme .btn-danger.no-theme-border, body.custom-theme .btn-danger.no-theme-border:hover /* Hovering effect of danger button in Enrollment checklist checkbox */ {
+	background-color: #bd362f;
+	border: #bd362f !important;
+	color: white !important;
+	padding: 0px 4px !important;
+	font-size: 12px;
+}
+/* Ticket Popup */
+body.custom-theme #popover-content .btn-primary.btn-color:hover, body.custom-theme #popover-content-1 .btn-primary.btn-color:hover, body.custom-theme #mob-popover-content .btn-primary.btn-color:hover {
+	background-color: #8a33c6!important;
+	border-color: #8a33c6!important;
+}
+body.custom-theme #popover-content .h3-bg, body.custom-theme #popover-content-1 .h3-bg, body.custom-theme #mob-popover-content .h3-bg  /* Background color of heading in ticket pop-up container */ {
+	background: #6a3093;
+}
+body.custom-theme #popover-content .btn-danger.cancel-btn, body.custom-theme #popover-content-1 .btn-danger.cancel-btn, body.custom-theme #mob-popover-content .btn-danger.cancel-btn /* Background color of heading in ticket pop-up container */ {
+	background-color: #bd362f;
+	border-color: #bd362f;
+}
+body.custom-theme #popover-content .btn-danger.cancel-btn:hover, body.custom-theme #popover-content-1 .btn-danger.cancel-btn:hover, body.custom-theme #mob-popover-content .btn-danger.cancel-btn:hover  /* Background color of danger button in ticket pop-up container */ {
+	color: #ffffff;
+	background-color: #942a25;
+	border-color: #942a25;
+}
+body.custom-theme .theme-popup-button .btn-success.cancel-btn  /* Background color of cancel button in confirmation pop-up in ticket container */ {
+	background-color: #7c40a7 !important;
+	border-color: #7c40a7 !important;
+}
+body.custom-theme .theme-popup-button .btn-success.cancel-btn:hover  /* Hovering effect of cancel button in confirmation pop-up in ticket container */ {
+	background-color: #8a33c6 !important;
+	border-color: #8a33c6 !important;
+}
+body.custom-theme .theme-popup-button .btn-danger.close-pop-over /* Background color of continue button in confirmation pop-up in ticket container */ {
+	background-color: #bd362f;
+	border-color: #bd362f;
+}
+body.custom-theme .theme-popup-button .btn-danger.close-pop-over:hover /* Hovering effect of continue button in confirmation pop-up in ticket container */ {
+	color: #ffffff;
+	background-color: #942a25;
+	border-color: #8c2823;
+}
+/* Reset Password */
+body.custom-theme .btn-primary.reset-btn /* Background color of reset button in sign in page */ {
+	background-color: #7c40a7 !important;
+	border-color: #7c40a7 !important;
+}
+body.custom-theme .btn-primary.reset-btn:hover /* Hovering effect of reset button in sign in page */ {
+	background-color: #8a33c6 !important;
+	border-color: #8a33c6 !important;
+}
+/* View answer button */
+body.custom-theme .review-clr:focus, body.custom-theme .review-clr:hover /* Style of view answer button in batch quiz page */ {
+	color: #fff;
+	background-color: #ba0014 !important;
+	border-color: #f50922 !important;
+}
+/* Go back button */
+body.custom-theme .modal-body .btn-success /* Background color of go back button in modal pop-ups */ {
+	background-color: #7c40a7;
+	border-color: #7c40a7;
+}
+body.custom-theme .modal-body .btn-success:hover /* Hovering effect of go back button in modal pop-ups */ {
+	background-color: #8a33c6 !important;
+	border-color: #8a33c6 !important;
+}
+/* Curriculum buttons */
+body.custom-theme .theme-curriculum-button .btn-primary, body.custom-theme .theme-curriculum-button .btn-completed /* Background color of primary button in curriculum page */ {
+	background-color: #6a3093 !important;
+	border-color: #6a3093 !important;
+}
+body.custom-theme .theme-curriculum-button .btn-primary:hover, body.custom-theme .theme-curriculum-button .btn-completed:hover  /* Hovering effect of primary button in curriculum page */ {
+	background-color: #fff !important;
+	border: 2px solid #6a3093 !important;
+	color: #6a3093 !important;
+}
+body.custom-theme .theme-curriculum-refresh.fa-refresh /* Background color of refresh button in curriculum page */ {
+	color: #fff;
+	background-color: #6a3093 !important;
+	border-color: #6a3093 !important;
+}
+body.custom-theme .theme-curriculum-refresh.fa-refresh:hover /* Hovering effect of refresh button in curriculum page */ {
+	background-color: #fff !important;
+	border: 2px solid #6a3093 !important;
+	color: #6a3093 !important;
+}
+body.custom-theme .theme-curriculum-quiz-nav-button button /* Background color of navigation button in curriculum page */ {
+	color: #fff;
+	background-color: #6a3093 !important;
+	border-color: #6a3093 !important;
+}
+body.custom-theme .theme-curriculum-quiz-nav-button button:hover /* Hovering effect of navigation button in curriculum page */ {
+	background-color: #fff !important;
+	border: 2px solid #6a3093 !important;
+	color: #6a3093 !important;
+}
+body.custom-theme .theme-curriculum-quiz-nav-button .btn-q:disabled, body.custom-theme .theme-curriculum-quiz-nav-button .btn-q.disabled, body.custom-theme .theme-curriculum-quiz-nav-button .btn-q:disabled:hover, body.custom-theme .theme-curriculum-quiz-nav-button .btn-q.disabled:hover  /* Hovering effect of disabled navigation button in curriculum page */ {
+	color: #fff !important;
+	border: 2px solid #6a3093a8 !important;
+	background-color: #6a3093a8 !important;
+}
+body.custom-theme .modal-body .btn-success.quiz-button-success, body.custom-theme .modal-body .btn-success.quiz-button-success:hover /* Hovering effect of success quiz button in modal pop-up in curriculum page */ {
+	background-color: #FA6A2C !important;
+	border-color: #FA6A2C !important;
+}
+body.custom-theme .modal-body .btn-success.quiz-button-negative, body.custom-theme .modal-body .btn-success.quiz-button-negative:hover /* Hovering effect of negative quiz button in modal pop-up in curriculum page */ {
+	background-color: #474C55 !important;
+	border-color: #474C55 !important;
+}
+body.custom-theme .summary-footer {
+	background: #dddddd;
+}
+body.custom-theme .theme-curriculum-btn-hover.btn-primary /* Background color of primary button in curriculum page */ {
+	color: #fff;
+	background-color: #6a3093;
+	border: 2px solid #6a3093;
+}
+body.custom-theme .theme-curriculum-btn-hover.btn-primary:hover /* Hovering effect of primary button in curriculum page */ {
+	color: #6a3093 !important;
+	background-color: #fff !important;
+	border: 2px solid #6a3093;
+}
+/* Mark activity complete button */  
+body.custom-theme .no-theme-mark-activity-complete-btn button /* Background color of mark activity complete button button in curriculum page */ {
+	color: #ffffff;
+	background-color: #7c40a7;
+	border-color: #7c40a7;
+}
+body.custom-theme .no-theme-mark-activity-complete-btn button:hover /* Hovering effect of mark activity complete button button in curriculum page */ {
+	background-color: #8a33c6 !important;
+	border-color: #8a33c6 !important;
+	color: #fff !important;
+}
+body.custom-theme .no-theme-mark-activity-complete-btn button.disabled-clr, body.custom-theme .no-theme-mark-activity-complete-btn button.disabled-clr:hover, body.custom-theme .no-theme-mark-activity-complete-btn button.disabled-clr:focus /* Hovering effect of disabled mark activity complete button in curriculum page */ {
+	color: #ffffff;
+	background-color: #7c40a7a8 !important;
+	border-color: #7c40a7a8 !important;
+}
+/* Upload artifacts */  
+body.custom-theme .theme-upload-artifact-btn.btn-info[disabled], body.custom-theme .theme-upload-artifact-btn.btn-info[disabled]:hover /* Hovering effect of disabled upload artifact button in curriculum page */ {
+	background-color: #6a3093a8 !important;
+	border-color: #6a3093a8 !important;
+}
+body.custom-theme .theme-upload-artifact-btn.btn-info /* Background color of upload artifact button in curriculum page */ {
+	background-color: #7c40a7 !important;
+	border-color: #7c40a7 !important;
+	color: #ffffff;
+}
+body.custom-theme .theme-upload-artifact-btn.btn-info:hover /* Hovering effect of danger button in curriculum page */ {
+	color: #ffffff;
+	background-color: #8a33c6 !important;
+	border-color: #8a33c6 !important;
+}
+body.custom-theme .theme-upload-artifact-danger-btn:hover /* Hovering effect of danger button in curriculum page */ {
+	color: #ffffff;
+}
+/* Reference documents button */
+body.custom-theme .theme-ref-docs-btn /* Background color of Reference documents button in curriculum page */ {
+	background-color: #7c40a7 !important;
+	border-color: #7c40a7 !important;
+}
+body.custom-theme .theme-ref-docs-btn:hover /* Hovering effect of Reference documents button in curriculum page */ {
+	background-color: #8a33c6 !important;
+	border-color: #8a33c6 !important;
+	color: #fff !important;
+}
+/* Curriculum menu hover */
+body.custom-theme .sec-list li a:hover, body.custom-theme .sec-list li.active>a:hover /* Hovering effect of curriculum menu in curriculum page */ {
+	background-color: transparent !important;
+	text-decoration: none !important;
+}
+body.custom-theme .theme-curriculum-submit-button.btn-primary /* Background color of submit button in curriculum page */ {
+	color: #fff;
+	background-color: #6a3093;
+	border-color: #6a3093;
+}
+body.custom-theme .theme-curriculum-submit-button.btn-primary:hover /* Hovering effect of submit button in curriculum page */ {
+	color: #6a3093 !important;
+	background-color: #fff !important;
+	border-color: #6a3093 !important;
+}
+/* Display courses and assessment in a grid-list style */
+body.custom-theme .btn-white.inActiveView{
+	color: #444444;
+    background-color: #ffffff !important;
+    border-color: #efefef !important;
+}
+body.custom-theme .btn-grey-900.activeView, body.custom-theme .btn-grey-900.activeView:hover, body.custom-theme .btn-white.inActiveView:hover {
+	color: #ffffff;
+    background-color: #fc6767 !important;
+    border-color: #fc6767 !important;
+}
+body.custom-theme .next-previous-button-container .btn-primary:focus {
+	background-color: #7c40a7 !important;
+	border-color: #7c40a7 !important;
+   }
+/*********************************Purplin Theme Ends Here*************************************/

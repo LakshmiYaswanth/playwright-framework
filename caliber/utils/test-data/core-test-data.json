@@ -1,0 +1,411 @@
+{
+  "testData": {
+    "admin": {
+      "trainingAdmin": "sharoonmaria@yopmail.com",
+      "ticketTrainingAdmin": "apitesttrainingadmin@yopmail.com",
+      "courseTrainingAdmin": "apitesttrainingadmin@yopmail.com",
+      "superAdmin": "apitestsuperadmin@yopmail.com",
+      "systemAdmin": "apitesttrainingadmin1@yopmail.com",
+      "mentor": "apitestmentor@yopmail.com",
+      "RevProContentAdmin": "apitestrootcontentadmin@yopmail.com",
+      "contentAdmin": "apitestcontentadmin@yopmail.com",
+      "mentorIndia": "automation-mentor-india@yopmail.com",
+      "contentAdminPro": "super-content-admin@yopmail.com",
+      "onlyContentAdminRev": "automation-content-admin@yopmail.com"
+    },
+    "Password": "Pass123$",
+    "title": {
+      "dashboard": "DashBoard | Revature",
+      "projectReview": "Project Review | Revature"
+    },
+    "roles": {
+      "trainingAdmin": "Training Admin",
+      "contentAdmin": "Content Admin",
+      "mentorManager": "Mentor Manager",
+      "contentCreator": "Content Creator",
+      "trainer": "Trainer",
+      "mentor": "Mentor",
+      "recruiterManager": "Recruiter Manager",
+      "recruiter": "Recruiter",
+      "dashboardUser": "Dashboard User",
+      "financier": "Financier"
+    },
+    "levels": {
+      "level100": "3",
+      "level200": "4",
+      "level300": "5"
+    },
+    "portfolioReviewMessage": {
+      "commentForApprove": "Approved",
+      "commentForReject": "Rejected"
+    },
+    "project": {
+      "traineeProject": "Pubhub 100(India)",
+      "assignedProject": "Pubhub 100(India)"
+    },
+    "batch": {
+      "name": "011Automation_Test_Batch",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "hours": {
+        "hr": "8",
+        "hrs": "9"
+      },
+      "time": {
+        "time1": "10:00",
+        "time2": "8:00"
+      },
+      "project": {
+        "prj1": "Pubhub 100(India) - (Version - 17)"
+      },
+      "quizzes": {
+        "names": [
+          "1707 - Information Security ( ver-1)",
+          "ADO.NET - Data Providers ( ver-1)",
+          "ADO.NET - Walkthrough ( ver-3)",
+          "Angular Expressions Assessment ( ver-4)",
+          "AngularJS 2 Components ( ver-1)"
+        ]
+      }
+    },
+    "salesforcecode": {
+      "salecode": "001L000001aHh0UIAS"
+    },
+    "couponcode": {
+      "code": "Automation"
+    },
+    "contentsubscription": {
+      "project1": "MySwoleMate 100",
+      "course1": "AngularJs 2",
+      "quiz1": "ADO.NET - Data Providers"
+    },
+    "successmessage": {
+      "orgcreationsucessmessage": "Organization created successfully.",
+      "orgActivationcodesucessmessage": "Activation code saved successfully.",
+      "orgupdatedssucessmessage": "Organization updated successfully.",
+      "orgthemeuploadedsuccessmessage": "File uploaded successfully.",
+      "orguseraddedsuccessmessage": "Organization user saved successfully",
+      "userdataupdatesuccessmessage": "User data updated successfully"
+    },
+    "activitype": {
+      "quiztype": "quiz",
+      "referencetype": "reference",
+      "lecturetype": "lecture",
+      "assignmenttype": "assignment",
+      "gradingtype": "grade",
+      "videotype": "video",
+      "projecttype": "project"
+    },
+    "attachment": {
+      "jpeg": "img_01.jpg"
+    },
+    "Description": {
+      "curriculmDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remainingessentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktoppublishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remainingessentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktoppublishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remainingessentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktoppublishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remainingessentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktoppublishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remainingessentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktoppublishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "moduleDesription": "There is one very important command that will help us to get back to the main page. Main page is the page in which two iFrames are embedded. Once you are done with all the task in a particular iFrame you can switch back to the main page using the switchTo().defaultContent().",
+      "quizDescription": "Test your knowledge on how to create references or objects in this introductory quiz on Constructors & References in C#!",
+      "videoDescription": "It has been estimated that over three billion devices currently run Java programs including cell phones and computers. This course covers the basics of Java, an object oriented programming (OOP) language. The course begins with an overview of statements, Strings, and classes, before moving on to OOP concepts like inheritance, interfaces, abstract classes, and polymorphism. Advanced topics like reflection, generics, and threads are not covered in this course.",
+      "lectureDescription": "Learn how to connect any .NET Application to a SQL Server Database! This course is an introduction to how to create a database using SQL Server and how to use the ADO.NET Data Provider for SQL Server in order to retrieve & manipulate data to & from your .NET application. Knowledge of C# is required so check out our Introduction to C# course if you are unfamiliar with the C# programming language!",
+      "referenceDescrition": "This course covers the fundamentals of CSS (Cascading Style Sheets). CSS is used to provide styling and improve the layout and aesthetics of your website. Taking this course will improve your Front-End skills and help you understand how elements are placed, measurements used by the browser, and how to improve the look and feel of your design.",
+      "assignmentDescription": "So nice, they made a second version!. Learn about the frontend web framework, AngularJS Version 2. We'll point out some key differences between Angular Version 1 versus Version 2 as well as uncover some of the new features such as Components, Modules, and Http Services. ",
+      "ProjectDescription": "Sousmate is a kitchen aid, helping users to cook their favorite recipes. Recipes can be uploaded by Users, which Sousmate will display for users cooking that recipe in a step-by-step fashion. Sousmate will track the cooking time for foods, and will alert users when certain periods of time have elapsed. In this 100 level internship, Developers will build the static HTML and CSS content for all pages of the website as well as implement JavaScript timers to create a count-down clock for recipe cooking times. ",
+      "gradingDescription": "This is a web application that improves customer record keeping for service-oriented businesses. The scope of the task is developing a portal in which internal staff can access customer information conveniently, whether it be from a mobile device on the client-site, or a desktop at the office . Users can access important customer information, schedule and manage service appointments, and generate invoices for the customer.",
+      "taskDescription": "THIS COURSE COVERS THE FUNDAMENTALS OF CSS (CASCADING STYLE SHEETS)."
+    },
+    "courses": {
+      "types": {
+        "Dashboard": "Dashboard",
+        "PreSignup": "Pre-signup",
+        "Project": "Project"
+      },
+      "modes": [
+        "Draft",
+        "Published"
+      ],
+      "courseHeadings": [
+        "S.No",
+        "Course Name",
+        "Version",
+        "Mode",
+        "Category",
+        "Level",
+        "Created by",
+        "Status",
+        "Action"
+      ],
+      "courseCreationPageHeadings": [
+        "Course Name",
+        "Level",
+        "Category",
+        "Tags",
+        "Slug",
+        "Level Override",
+        "On",
+        "Off",
+        "Available for",
+        "Description",
+        "Meta Keyword",
+        "Meta Description",
+        "Course Icon"
+      ],
+      "topicHeadings": [
+        "Topic Name",
+        "Topic Type"
+      ],
+      "videoTableHeadings": [
+        "Video Name",
+        "Video URL",
+        "Level",
+        "Action"
+      ],
+      "PanelBtns": [
+        "Add to Course",
+        "Close"
+      ],
+      "topicRefArtLabels": [
+        "Topic Name",
+        "Reference Artifacts Name",
+        "Artifact",
+        "Description"
+      ],
+      "topicRefUrlLabels": [
+        "Topic Name",
+        "Reference URL Name",
+        "Reference URL",
+        "Description"
+      ],
+      "topicSampleProgLabels": [
+        "Topic Name",
+        "Sample Program Name",
+        "Sample Program",
+        "Description"
+      ]
+    },
+    "characterText2000": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a nisi vel nibh euismod pulvinar quis ac magna. Fusce gravida sapien metus, ac imperdiet urna dapibus in. Donec nec pharetra lorem. Praesent egestas aliquam cursus. Nullam vulputate, tortor id scelerisque fermentum, mi dolor consectetur dui, nec placerat dolor lorem ac tortor. Quisque lectus augue, mollis quis fermentum eu, dignissim eu neque. Sed vulputate volutpat neque sit amet aliquet. Cras diam neque, vulputate in varius euismod, bibendum sit amet ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam in arcu a elit efficitur ultrices. Nulla eget turpis sollicitudin, efficitur magna in, aliquam mauris. Morbi a est non neque convallis condimentum at id dui. Cras blandit porta arcu, et molestie lacus semper sed.    Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus fringilla justo sit amet massa facilisis, vitae fermentum mauris feugiat. Duis eu pellentesque leo, ac consectetur mauris. Donec feugiat enim eu aliquam facilisis. Phasellus semper eget elit eu condimentum. Donec semper felis lobortis, tempor nisl nec, blandit lacus. Duis malesuada sit amet dui vel dignissim. Duis sed porttitor nulla, nec laoreet nibh. Nulla lobortis porttitor velit ac ornare. Nulla blandit turpis eu eros iaculis, et dictum nibh blandit. Suspendisse faucibus consectetur massa, nec venenatis ex bibendum sit amet. Etiam facilisis arcu in egestas eleifend. Maecenas a massa eget quam feugiat maximus et vitae ipsum. Nulla rhoncus felis sit amet eleifend rhoncus. Pellentesque mi lacus, faucibus vitae urna et, venenatis efficitur nunc.    Quisque ut pharetra orci, non egestas risus. Suspendisse lobortis consequat mattis. Etiam fermentum feugiat ligula, quis vestibulum urna fringilla eget. Cras venenatis ipsum malesuada, sollicitudin nunc ut, mattis neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras mas",
+    "characterText250": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a nisi vel nibh euismod pulvinar quis ac magna. Fusce gravida sapien metus, ac imperdiet urna dapibus in. Donec nec pharetra lorem. Praesent egestas aliquam cursus. Nullam vulputate,ab",
+    "categories": {
+      "description": [
+        "Category Certification Edited",
+        "The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators. To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words. If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages. The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental. To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is. The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators. To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words. If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages. The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental. To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is. The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their common words."
+      ]
+    },
+    "activityTypes": [
+      "CRS",
+      "ASS",
+      "VID",
+      "OFFLINTSK",
+      "ONLINTSK",
+      "OFFLINEASSMT"
+    ],
+    "activityTypesWithoutOnlineAct": [
+      "CRS",
+      "ASS",
+      "VID",
+      "OFFLINTSK",
+      "OFFLINEASSMT"
+    ],
+    "description": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    ],
+    "tags": [
+      "Automation env",
+      "Testing project",
+      "Test Environment"
+    ],
+    "activityDescription": [
+      "This is test description for automation purpose"
+    ],
+    "projectData": {
+      "sprints": 2,
+      "dives": 2,
+      "noOfProjectActivities": 1,
+      "noOfSprintActivities": 1,
+      "teaserVideo": 1,
+      "projectSkills": 3
+    },
+    "offlineAssessmentProject": "automation-project-only-offline-assessments",
+    "offlineQuizPopUpLabels": [
+      "Max Score",
+      "Passing Score",
+      "Score",
+      "Comments",
+      "Show Score",
+      "Show Comment",
+      "Percentage",
+      "Status"
+    ],
+    "offlineQuizTableHeadings": [
+      "S.No",
+      "Full Name",
+      "Email",
+      "Offline Quiz Name",
+      "Project Name",
+      "Dive Name",
+      "Requested Time",
+      "Action"
+    ],
+    "offlineAssessmentNoMatchingRecords": "No matching records found",
+    "prodBatchName": "VELS_Java_Training",
+    "prodUniversityName": "Vels University (India)",
+    "prodQuizName": "JavaScript - Dashboard",
+    "traineeProject": "(Trainee)",
+    "prodCandidateProject": "(Intern)",
+    "assignItems": {
+      "assignItemsRemoveUserPopUp": {
+        "RemoveBtn": "Remove user(s) from the list",
+        "PopUpMsg": "Remove the following user or project from the list"
+      },
+      "assignInternsTableHeadings": [
+        "S.No",
+        "Name",
+        "Email Id",
+        "contact No",
+        "University",
+        "Intern Type"
+      ],
+      "assignItemsInternSearch": [
+        "Name",
+        "E-mail",
+        "University",
+        "Batch Name",
+        "Type",
+        "All"
+      ],
+      "assignItemsTableHeadings": [
+        "S.No",
+        "Name",
+        "Timer status",
+        "Action"
+      ],
+      "assignItemsScheduleQuizHeadings": [
+        "Quiz Name",
+        "Schedule",
+        "Start Time*",
+        "End Time*"
+      ]
+    }
+  },
+  "activityTypes": [
+    "CRS",
+    "ASS",
+    "VID",
+    "OFFLINTSK",
+    "ONLINTSK",
+    "OFFLINEASSMT"
+  ],
+  "description": [
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  ],
+  "tags": [
+    "Automation env",
+    "Testing project",
+    "Test Environment"
+  ],
+  "activityDescription": [
+    "This is test description for automation purpose"
+  ],
+  "projectData": {
+    "sprints": 2,
+    "dives": 2,
+    "noOfProjectActivities": 1,
+    "noOfSprintActivities": 1,
+    "teaserVideo": 1,
+    "projectSkills": 3
+  },
+  "pointSettings": [
+    "Automation Point settings",
+    "Automation Point setting 1",
+    "Automation Point setting 2"
+  ],
+  "mentorData": {
+    "reasonForMentorTransfer": "To Trasfer Mentee."
+  },
+  "assessmentLimitApproval": {
+    "approveLimit": "3",
+    "rejectLimit": "0",
+    "rejectReason": "Sorry. No more attempts for this quiz"
+  },
+  "artifactReview": {
+    "attemptedProject": "Automated_Test_Trainee : ver - 1",
+    "acceptArtifactComment": "Accepted Artifact",
+    "rejectArtifactComment": "Rejected Artifact",
+    "uploadedArtifact": [
+      "  test-zip.zip",
+      " test-zip.zip"
+    ],
+    "status": [
+      "Submitted",
+      "Rejected",
+      "Accepted"
+    ]
+  },
+  "hours": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10",
+    "11",
+    "12"
+  ],
+  "minutes": [
+    "00",
+    "05",
+    "10",
+    "15",
+    "20",
+    "25",
+    "30",
+    "35",
+    "40",
+    "45",
+    "50",
+    "55"
+  ],
+  "firstName": {
+    "Admin": "Automation Admin",
+    "trainingAdmin": "Automation Training",
+    "ticketAdmin": "Automation Ticket",
+    "courseAdmin": "Automation Course",
+    "mentorAdmin": "Automation Mentor",
+    "systemAdmin": "Automation System",
+    "contentAdminRev": "Automation Content Rev",
+    "contentAdminPro": "Automation Content Pro",
+    "superAdmin": "Automation Super"
+  },
+  "lastName": {
+    "commonLastName": "User"
+  },
+  "title": {
+    "employeeTitle": "QAT"
+  },
+  "employeeId": {
+    "id": "RCS"
+  },
+  "salesforceId": {
+    "id": "_SF"
+  },
+  "timeZone": {
+    "USATimeZone": "(GMT -5:00) EST5EDT",
+    "CanadaTimeZone": "(GMT -8:00) Canada/Pacific"
+  },
+  "country": {
+    "countryAsUSA": "USA",
+    "countryAsCanada": "CANADA"
+  },
+  "switchOrganization": {
+    "org1": "Revature Pro",
+    "org2": "Revature"
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "email": {
+        "trainingAdmin": "autotestuser99@yopmail.com",
+        "trainer": "autotestuser100@yopmail.com",
+        "superAdmin": "autotestuser107@yopmail.com",
+        "mentor": "autotestuser103@yopmail.com",
+        "rootContentAdmin": "autotestuser170@yopmail.com",
+        "contentAdmin": "autotestuser101@yopmail.com",
+        "mentorManager": "autotestuser104@yopmail.com",
+        "systemAdmin": "autotestuser73@yopmail.com",
+        "contentCreator": "autotestuser102@yopmail.com",
+        "rootContentCreator": "autotestuser109@yopmail.com",
+        "dashboardUser": "autotestuser105@yopmail.com"
+    }
+}

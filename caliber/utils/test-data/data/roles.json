@@ -1,0 +1,55 @@
+{
+    "RPRO": {
+        "org": "Revature Pro",
+        "SUA": "Super Admin",
+        "CC": "Content Creator",
+        "CA": "Content Admin"
+    },
+    "Revature": {
+        "org": "Revature",
+        "SA": "System Administrator",
+        "TA": "Training Admin",
+        "T": "Trainer",
+        "M": "Mentor",
+        "DU": "Dashboard User",
+        "MM": "Mentor Manager",
+        "CC": "Content Creator",
+        "CA": "Content Admin"
+    },
+    "RevatureProLite": {
+        "org": "RevaturePro Lite",
+        "SA": "System Administrator"
+    },
+    "RevatureIndia": {
+        "org": "Revature India",
+        "CA": "Content Admin"
+    },
+    "RevatureSpark": {
+        "org": "Revature Spark",
+        "CC": "Content Creator"
+    },
+    "TestingPayment": {
+        "org": "Testing Payment",
+        "TA": "Training Admin"
+    },
+    "BoiseStateUniversity": {
+        "org": "Boise State University",
+        "T": "Trainer"
+    },
+    "CapitalOneSEED": {
+        "org": "Capital One SEED",
+        "MM": "Mentor Manager"
+    },
+    "CorpDemo": {
+        "org": "Corp Demo",
+        "M": "Mentor"
+    },
+    "DigitalSkillsAcademy": {
+        "org": "Digital Skills Academy",
+        "TA": "Training Admin"
+    },
+    "Nasscom": {
+        "org": "Nasscom",
+        "T": "Trainer"
+    }
+}

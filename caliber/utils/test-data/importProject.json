@@ -1,0 +1,21 @@
+{
+  "Employees": {
+    "contentAdminPro": "testcadmin@yopmail.com",
+    "contentCreatorPro": "abcrev@yopmail.com",
+    "contentCreatorRev": "1.88autoallrole@yopmail.com",
+    "contentAdminRev": "testforroles@yopmail.com",
+    "trainingAdminRev": "testuserta@yopmail.com",
+    "trainerRev": "trainerqa2@yopmail.com",
+    "trainerOther": "trainer1@yopmail.com",
+    "trainingAdminOther": "trainingadminother@yopmail.com",
+    "contentAdminOther": "contentadmin1@yopmail.com",
+    "contentCreatorOther": "contentcreator1@yopmail.com"
+  },
+  "login": {
+    "Username": "testtrainer6@yopmail.com",
+    "Password": "Pass123$"
+  },
+  "Search": {
+    "SearchExportProject": "pubhub 100"
+  }
+}

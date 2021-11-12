@@ -1,0 +1,21 @@
+ATK This is a question title for this
+
+A. You can select this answer
+B. You can also select this answer
+C. This may be a choice as well
+D. This is a not a good choice
+ANSWER: B
+
+
+ATK This is a question with an ___________ in it.
+A.  Choice One
+
+B.  Choice Two
+C.  Choice Three
+D.  Choice Four
+ANSWER: A
+
+ATK This is the example of a True/False questions.
+A. True
+B. False
+ANSWER: A

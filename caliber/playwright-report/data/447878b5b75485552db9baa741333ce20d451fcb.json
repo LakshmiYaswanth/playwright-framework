@@ -1,0 +1,887 @@
+{
+  "fileId": "447878b5b75485552db9baa741333ce20d451fcb",
+  "fileName": "tests/homePage.test.ts",
+  "tests": [
+    {
+      "testId": "447878b5b75485552db9baa741333ce20d451fcb-bb05fb4e3768ca018269e079bef0e5a5684fa210",
+      "title": "login as Vp_user",
+      "projectName": "",
+      "location": {
+        "file": "tests/homePage.test.ts",
+        "line": 4,
+        "column": 5
+      },
+      "duration": 44492,
+      "outcome": "unexpected",
+      "path": [
+        "tests/homePage.test.ts:4",
+        "Validation for HomePage"
+      ],
+      "results": [
+        {
+          "duration": 44492,
+          "startTime": "2021-11-01T12:12:09.612Z",
+          "retry": 0,
+          "steps": [
+            {
+              "title": "Before Hooks",
+              "startTime": "2021-11-01T12:12:09.612Z",
+              "duration": 913,
+              "steps": [
+                {
+                  "title": "browserContext.newPage",
+                  "startTime": "2021-11-01T12:12:10.237Z",
+                  "duration": 286,
+                  "steps": []
+                }
+              ]
+            },
+            {
+              "title": "To verify user navigate to signup url",
+              "startTime": "2021-11-01T12:12:10.525Z",
+              "duration": 40373,
+              "snippet": "\u001b[0m \u001b[90m  4 |\u001b[39m     test(\u001b[32m\"login as Vp_user\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ login\u001b[33m,\u001b[39m home }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m  5 |\u001b[39m         \u001b[36mawait\u001b[39m test\u001b[33m.\u001b[39mstep(\u001b[32m'To verify user navigate to signup url'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  6 |\u001b[39m             \u001b[36mawait\u001b[39m login\u001b[33m.\u001b[39mcaliberAppInitialize()\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [
+                {
+                  "title": "page.waitForNavigation",
+                  "startTime": "2021-11-01T12:12:10.647Z",
+                  "duration": 9486,
+                  "snippet": "\u001b[0m \u001b[90m  15 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([\u001b[0m\n\u001b[0m \u001b[90m  16 |\u001b[39m             \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForNavigation()\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                      ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  17 |\u001b[39m             \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mgoto(url)\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 16,
+                    "column": 23
+                  }
+                },
+                {
+                  "title": "page.goto(https://caliber2-staging.revaturelabs.com/sign-in)",
+                  "startTime": "2021-11-01T12:12:10.651Z",
+                  "duration": 9486,
+                  "snippet": "\u001b[0m \u001b[90m  16 |\u001b[39m             \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForNavigation()\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  17 |\u001b[39m             \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mgoto(url)\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                      ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  18 |\u001b[39m         ])\u001b[33m;\u001b[39m\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 17,
+                    "column": 23
+                  }
+                },
+                {
+                  "title": "locator.waitFor(//button[@class=\"btn button btn-block\"])",
+                  "startTime": "2021-11-01T12:12:30.145Z",
+                  "duration": 45,
+                  "snippet": "\u001b[0m \u001b[90m  24 |\u001b[39m     \u001b[36masync\u001b[39m waitForLocator(locator\u001b[33m:\u001b[39m \u001b[33mLocator\u001b[39m) {\u001b[0m\n\u001b[0m \u001b[90m  25 |\u001b[39m         \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39mwaitFor({ \u001b[32m'state'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'timeout'\u001b[39m\u001b[33m:\u001b[39m waitForElement })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                      ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  26 |\u001b[39m     }\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 25,
+                    "column": 23
+                  }
+                },
+                {
+                  "title": "page.waitForNavigation",
+                  "startTime": "2021-11-01T12:12:30.192Z",
+                  "duration": 4244,
+                  "snippet": "\u001b[0m \u001b[90m  39 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([\u001b[0m\n\u001b[0m \u001b[90m  40 |\u001b[39m             \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForNavigation()\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                      ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  41 |\u001b[39m             locator\u001b[33m.\u001b[39mclick()\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 40,
+                    "column": 23
+                  }
+                },
+                {
+                  "title": "locator.click(//button[@class=\"btn button btn-block\"])",
+                  "startTime": "2021-11-01T12:12:30.195Z",
+                  "duration": 2671,
+                  "snippet": "\u001b[0m \u001b[90m  40 |\u001b[39m             \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForNavigation()\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  41 |\u001b[39m             locator\u001b[33m.\u001b[39mclick()\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                    ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  42 |\u001b[39m         ])\u001b[33m;\u001b[39m\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 41,
+                    "column": 21
+                  }
+                },
+                {
+                  "title": "locator.waitFor(input[name=\"username\"])",
+                  "startTime": "2021-11-01T12:12:34.438Z",
+                  "duration": 24,
+                  "snippet": "\u001b[0m \u001b[90m  24 |\u001b[39m     \u001b[36masync\u001b[39m waitForLocator(locator\u001b[33m:\u001b[39m \u001b[33mLocator\u001b[39m) {\u001b[0m\n\u001b[0m \u001b[90m  25 |\u001b[39m         \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39mwaitFor({ \u001b[32m'state'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'timeout'\u001b[39m\u001b[33m:\u001b[39m waitForElement })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                      ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  26 |\u001b[39m     }\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 25,
+                    "column": 23
+                  }
+                },
+                {
+                  "title": "locator.fill(input[name=\"username\"])",
+                  "startTime": "2021-11-01T12:12:34.463Z",
+                  "duration": 28,
+                  "snippet": "\u001b[0m \u001b[90m 165 |\u001b[39m     \u001b[36masync\u001b[39m fillText(locator\u001b[33m:\u001b[39m \u001b[33mLocator\u001b[39m\u001b[33m,\u001b[39m text\u001b[33m:\u001b[39m any) {\u001b[0m\n\u001b[0m \u001b[90m 166 |\u001b[39m         \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39mfill(text)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                      ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 167 |\u001b[39m     }\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 166,
+                    "column": 23
+                  }
+                },
+                {
+                  "title": "locator.waitFor(input[name=\"password\"])",
+                  "startTime": "2021-11-01T12:12:34.493Z",
+                  "duration": 15,
+                  "snippet": "\u001b[0m \u001b[90m  24 |\u001b[39m     \u001b[36masync\u001b[39m waitForLocator(locator\u001b[33m:\u001b[39m \u001b[33mLocator\u001b[39m) {\u001b[0m\n\u001b[0m \u001b[90m  25 |\u001b[39m         \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39mwaitFor({ \u001b[32m'state'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'timeout'\u001b[39m\u001b[33m:\u001b[39m waitForElement })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                      ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  26 |\u001b[39m     }\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 25,
+                    "column": 23
+                  }
+                },
+                {
+                  "title": "locator.fill(input[name=\"password\"])",
+                  "startTime": "2021-11-01T12:12:34.510Z",
+                  "duration": 50,
+                  "snippet": "\u001b[0m \u001b[90m 165 |\u001b[39m     \u001b[36masync\u001b[39m fillText(locator\u001b[33m:\u001b[39m \u001b[33mLocator\u001b[39m\u001b[33m,\u001b[39m text\u001b[33m:\u001b[39m any) {\u001b[0m\n\u001b[0m \u001b[90m 166 |\u001b[39m         \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39mfill(text)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                      ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 167 |\u001b[39m     }\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 166,
+                    "column": 23
+                  }
+                },
+                {
+                  "title": "locator.check(input[name=\"chkRemember\"])",
+                  "startTime": "2021-11-01T12:12:34.563Z",
+                  "duration": 80,
+                  "snippet": "\u001b[0m \u001b[90m 121 |\u001b[39m         \u001b[36mif\u001b[39m (con) {\u001b[0m\n\u001b[0m \u001b[90m 122 |\u001b[39m             \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mremember\u001b[33m.\u001b[39mcheck()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 123 |\u001b[39m         } \u001b[36melse\u001b[39m {\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "pages/loginPage.ts",
+                    "line": 122,
+                    "column": 33
+                  }
+                },
+                {
+                  "title": "locator.waitFor(button:has-text(\"Sign In\"))",
+                  "startTime": "2021-11-01T12:12:34.645Z",
+                  "duration": 14,
+                  "snippet": "\u001b[0m \u001b[90m  24 |\u001b[39m     \u001b[36masync\u001b[39m waitForLocator(locator\u001b[33m:\u001b[39m \u001b[33mLocator\u001b[39m) {\u001b[0m\n\u001b[0m \u001b[90m  25 |\u001b[39m         \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39mwaitFor({ \u001b[32m'state'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'timeout'\u001b[39m\u001b[33m:\u001b[39m waitForElement })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                      ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  26 |\u001b[39m     }\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 25,
+                    "column": 23
+                  }
+                },
+                {
+                  "title": "page.waitForNavigation",
+                  "startTime": "2021-11-01T12:12:34.660Z",
+                  "duration": 6239,
+                  "snippet": "\u001b[0m \u001b[90m  39 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([\u001b[0m\n\u001b[0m \u001b[90m  40 |\u001b[39m             \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForNavigation()\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                      ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  41 |\u001b[39m             locator\u001b[33m.\u001b[39mclick()\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 40,
+                    "column": 23
+                  }
+                },
+                {
+                  "title": "locator.click(button:has-text(\"Sign In\"))",
+                  "startTime": "2021-11-01T12:12:34.662Z",
+                  "duration": 96,
+                  "snippet": "\u001b[0m \u001b[90m  40 |\u001b[39m             \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForNavigation()\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  41 |\u001b[39m             locator\u001b[33m.\u001b[39mclick()\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                    ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  42 |\u001b[39m         ])\u001b[33m;\u001b[39m\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 41,
+                    "column": 21
+                  }
+                }
+              ],
+              "location": {
+                "file": "tests/homePage.test.ts",
+                "line": 5,
+                "column": 20
+              }
+            },
+            {
+              "title": "TC_018,TC_034 To verify Home page",
+              "startTime": "2021-11-01T12:12:50.899Z",
+              "duration": 909,
+              "snippet": "\u001b[0m \u001b[90m  9 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 10 |\u001b[39m         \u001b[36mawait\u001b[39m test\u001b[33m.\u001b[39mstep(\u001b[32m'TC_018,TC_034 To verify Home page'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 11 |\u001b[39m             \u001b[36mawait\u001b[39m login\u001b[33m.\u001b[39mvalidationCaliberVPPage()\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [
+                {
+                  "title": "locator.waitFor(#home-link)",
+                  "startTime": "2021-11-01T12:12:50.901Z",
+                  "duration": 116,
+                  "snippet": "\u001b[0m \u001b[90m  24 |\u001b[39m     \u001b[36masync\u001b[39m waitForLocator(locator\u001b[33m:\u001b[39m \u001b[33mLocator\u001b[39m) {\u001b[0m\n\u001b[0m \u001b[90m  25 |\u001b[39m         \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39mwaitFor({ \u001b[32m'state'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'timeout'\u001b[39m\u001b[33m:\u001b[39m waitForElement })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                      ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  26 |\u001b[39m     }\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 25,
+                    "column": 23
+                  }
+                },
+                {
+                  "title": "locator.isVisible(#home-link)",
+                  "startTime": "2021-11-01T12:12:51.019Z",
+                  "duration": 76,
+                  "snippet": "\u001b[0m \u001b[90m 338 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mwaitForLocator(locator)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 339 |\u001b[39m         \u001b[36mlet\u001b[39m visible \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39misVisible()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                    ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 340 |\u001b[39m         expect(visible)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 339,
+                    "column": 37
+                  }
+                },
+                {
+                  "title": "expect.toBeTruthy",
+                  "startTime": "2021-11-01T12:12:51.100Z",
+                  "duration": 0,
+                  "snippet": "\u001b[0m \u001b[90m 339 |\u001b[39m         \u001b[36mlet\u001b[39m visible \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39misVisible()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 340 |\u001b[39m         expect(visible)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                        ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 341 |\u001b[39m     }\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 340,
+                    "column": 25
+                  }
+                },
+                {
+                  "title": "locator.waitFor(#manage-link)",
+                  "startTime": "2021-11-01T12:12:51.102Z",
+                  "duration": 95,
+                  "snippet": "\u001b[0m \u001b[90m  24 |\u001b[39m     \u001b[36masync\u001b[39m waitForLocator(locator\u001b[33m:\u001b[39m \u001b[33mLocator\u001b[39m) {\u001b[0m\n\u001b[0m \u001b[90m  25 |\u001b[39m         \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39mwaitFor({ \u001b[32m'state'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'timeout'\u001b[39m\u001b[33m:\u001b[39m waitForElement })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                      ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  26 |\u001b[39m     }\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 25,
+                    "column": 23
+                  }
+                },
+                {
+                  "title": "locator.isVisible(#manage-link)",
+                  "startTime": "2021-11-01T12:12:51.199Z",
+                  "duration": 83,
+                  "snippet": "\u001b[0m \u001b[90m 338 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mwaitForLocator(locator)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 339 |\u001b[39m         \u001b[36mlet\u001b[39m visible \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39misVisible()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                    ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 340 |\u001b[39m         expect(visible)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 339,
+                    "column": 37
+                  }
+                },
+                {
+                  "title": "expect.toBeTruthy",
+                  "startTime": "2021-11-01T12:12:51.283Z",
+                  "duration": 0,
+                  "snippet": "\u001b[0m \u001b[90m 339 |\u001b[39m         \u001b[36mlet\u001b[39m visible \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39misVisible()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 340 |\u001b[39m         expect(visible)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                        ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 341 |\u001b[39m     }\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 340,
+                    "column": 25
+                  }
+                },
+                {
+                  "title": "locator.waitFor(text=Settings)",
+                  "startTime": "2021-11-01T12:12:51.284Z",
+                  "duration": 48,
+                  "snippet": "\u001b[0m \u001b[90m  24 |\u001b[39m     \u001b[36masync\u001b[39m waitForLocator(locator\u001b[33m:\u001b[39m \u001b[33mLocator\u001b[39m) {\u001b[0m\n\u001b[0m \u001b[90m  25 |\u001b[39m         \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39mwaitFor({ \u001b[32m'state'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'timeout'\u001b[39m\u001b[33m:\u001b[39m waitForElement })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                      ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  26 |\u001b[39m     }\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 25,
+                    "column": 23
+                  }
+                },
+                {
+                  "title": "locator.isVisible(text=Settings)",
+                  "startTime": "2021-11-01T12:12:51.334Z",
+                  "duration": 45,
+                  "snippet": "\u001b[0m \u001b[90m 338 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mwaitForLocator(locator)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 339 |\u001b[39m         \u001b[36mlet\u001b[39m visible \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39misVisible()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                    ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 340 |\u001b[39m         expect(visible)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 339,
+                    "column": 37
+                  }
+                },
+                {
+                  "title": "expect.toBeTruthy",
+                  "startTime": "2021-11-01T12:12:51.381Z",
+                  "duration": 0,
+                  "snippet": "\u001b[0m \u001b[90m 339 |\u001b[39m         \u001b[36mlet\u001b[39m visible \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39misVisible()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 340 |\u001b[39m         expect(visible)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                        ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 341 |\u001b[39m     }\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 340,
+                    "column": 25
+                  }
+                },
+                {
+                  "title": "locator.waitFor(//a[@id=\"assess-link\"])",
+                  "startTime": "2021-11-01T12:12:51.382Z",
+                  "duration": 37,
+                  "snippet": "\u001b[0m \u001b[90m  24 |\u001b[39m     \u001b[36masync\u001b[39m waitForLocator(locator\u001b[33m:\u001b[39m \u001b[33mLocator\u001b[39m) {\u001b[0m\n\u001b[0m \u001b[90m  25 |\u001b[39m         \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39mwaitFor({ \u001b[32m'state'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'timeout'\u001b[39m\u001b[33m:\u001b[39m waitForElement })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                      ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  26 |\u001b[39m     }\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 25,
+                    "column": 23
+                  }
+                },
+                {
+                  "title": "locator.isVisible(//a[@id=\"assess-link\"])",
+                  "startTime": "2021-11-01T12:12:51.421Z",
+                  "duration": 56,
+                  "snippet": "\u001b[0m \u001b[90m 338 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mwaitForLocator(locator)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 339 |\u001b[39m         \u001b[36mlet\u001b[39m visible \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39misVisible()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                    ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 340 |\u001b[39m         expect(visible)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 339,
+                    "column": 37
+                  }
+                },
+                {
+                  "title": "expect.toBeTruthy",
+                  "startTime": "2021-11-01T12:12:51.479Z",
+                  "duration": 0,
+                  "snippet": "\u001b[0m \u001b[90m 339 |\u001b[39m         \u001b[36mlet\u001b[39m visible \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39misVisible()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 340 |\u001b[39m         expect(visible)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                        ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 341 |\u001b[39m     }\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 340,
+                    "column": 25
+                  }
+                },
+                {
+                  "title": "locator.waitFor(#quality-link)",
+                  "startTime": "2021-11-01T12:12:51.481Z",
+                  "duration": 65,
+                  "snippet": "\u001b[0m \u001b[90m  24 |\u001b[39m     \u001b[36masync\u001b[39m waitForLocator(locator\u001b[33m:\u001b[39m \u001b[33mLocator\u001b[39m) {\u001b[0m\n\u001b[0m \u001b[90m  25 |\u001b[39m         \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39mwaitFor({ \u001b[32m'state'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'timeout'\u001b[39m\u001b[33m:\u001b[39m waitForElement })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                      ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  26 |\u001b[39m     }\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 25,
+                    "column": 23
+                  }
+                },
+                {
+                  "title": "locator.isVisible(#quality-link)",
+                  "startTime": "2021-11-01T12:12:51.548Z",
+                  "duration": 65,
+                  "snippet": "\u001b[0m \u001b[90m 338 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mwaitForLocator(locator)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 339 |\u001b[39m         \u001b[36mlet\u001b[39m visible \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39misVisible()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                    ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 340 |\u001b[39m         expect(visible)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 339,
+                    "column": 37
+                  }
+                },
+                {
+                  "title": "expect.toBeTruthy",
+                  "startTime": "2021-11-01T12:12:51.615Z",
+                  "duration": 0,
+                  "snippet": "\u001b[0m \u001b[90m 339 |\u001b[39m         \u001b[36mlet\u001b[39m visible \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39misVisible()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 340 |\u001b[39m         expect(visible)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                        ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 341 |\u001b[39m     }\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 340,
+                    "column": 25
+                  }
+                },
+                {
+                  "title": "locator.waitFor(#reports-link)",
+                  "startTime": "2021-11-01T12:12:51.616Z",
+                  "duration": 79,
+                  "snippet": "\u001b[0m \u001b[90m  24 |\u001b[39m     \u001b[36masync\u001b[39m waitForLocator(locator\u001b[33m:\u001b[39m \u001b[33mLocator\u001b[39m) {\u001b[0m\n\u001b[0m \u001b[90m  25 |\u001b[39m         \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39mwaitFor({ \u001b[32m'state'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'timeout'\u001b[39m\u001b[33m:\u001b[39m waitForElement })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                      ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  26 |\u001b[39m     }\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 25,
+                    "column": 23
+                  }
+                },
+                {
+                  "title": "locator.isVisible(#reports-link)",
+                  "startTime": "2021-11-01T12:12:51.696Z",
+                  "duration": 27,
+                  "snippet": "\u001b[0m \u001b[90m 338 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mwaitForLocator(locator)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 339 |\u001b[39m         \u001b[36mlet\u001b[39m visible \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39misVisible()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                    ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 340 |\u001b[39m         expect(visible)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 339,
+                    "column": 37
+                  }
+                },
+                {
+                  "title": "expect.toBeTruthy",
+                  "startTime": "2021-11-01T12:12:51.723Z",
+                  "duration": 0,
+                  "snippet": "\u001b[0m \u001b[90m 339 |\u001b[39m         \u001b[36mlet\u001b[39m visible \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39misVisible()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 340 |\u001b[39m         expect(visible)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                        ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 341 |\u001b[39m     }\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 340,
+                    "column": 25
+                  }
+                },
+                {
+                  "title": "locator.waitFor(text=Sign Out)",
+                  "startTime": "2021-11-01T12:12:51.724Z",
+                  "duration": 30,
+                  "snippet": "\u001b[0m \u001b[90m  24 |\u001b[39m     \u001b[36masync\u001b[39m waitForLocator(locator\u001b[33m:\u001b[39m \u001b[33mLocator\u001b[39m) {\u001b[0m\n\u001b[0m \u001b[90m  25 |\u001b[39m         \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39mwaitFor({ \u001b[32m'state'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'timeout'\u001b[39m\u001b[33m:\u001b[39m waitForElement })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                      ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  26 |\u001b[39m     }\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 25,
+                    "column": 23
+                  }
+                },
+                {
+                  "title": "locator.isVisible(text=Sign Out)",
+                  "startTime": "2021-11-01T12:12:51.755Z",
+                  "duration": 32,
+                  "snippet": "\u001b[0m \u001b[90m 338 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mwaitForLocator(locator)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 339 |\u001b[39m         \u001b[36mlet\u001b[39m visible \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39misVisible()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                    ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 340 |\u001b[39m         expect(visible)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 339,
+                    "column": 37
+                  }
+                },
+                {
+                  "title": "expect.toBeTruthy",
+                  "startTime": "2021-11-01T12:12:51.788Z",
+                  "duration": 0,
+                  "snippet": "\u001b[0m \u001b[90m 339 |\u001b[39m         \u001b[36mlet\u001b[39m visible \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39misVisible()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 340 |\u001b[39m         expect(visible)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                        ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 341 |\u001b[39m     }\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 340,
+                    "column": 25
+                  }
+                }
+              ],
+              "location": {
+                "file": "tests/homePage.test.ts",
+                "line": 10,
+                "column": 20
+              },
+              "error": "Cannot read property 'waitFor' of undefined"
+            },
+            {
+              "title": "After Hooks",
+              "startTime": "2021-11-01T12:12:51.809Z",
+              "duration": 2295,
+              "steps": [
+                {
+                  "title": "browserContext.close",
+                  "startTime": "2021-11-01T12:12:53.640Z",
+                  "duration": 439,
+                  "steps": []
+                }
+              ]
+            }
+          ],
+          "error": "TypeError: Cannot read property 'waitFor' of undefined\n\n\u001b[0m \u001b[90m 10 |\u001b[39m         \u001b[36mawait\u001b[39m test\u001b[33m.\u001b[39mstep(\u001b[32m'TC_018,TC_034 To verify Home page'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 11 |\u001b[39m             \u001b[36mawait\u001b[39m login\u001b[33m.\u001b[39mvalidationCaliberVPPage()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 12 |\u001b[39m             \u001b[36mawait\u001b[39m home\u001b[33m.\u001b[39mvalidateHomePage()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 13 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 14 |\u001b[39m         \u001b[36mawait\u001b[39m test\u001b[33m.\u001b[39mstep(\u001b[32m'TC_008,TC_009,TC_010,TC_011,TC_012,TC_024 To verify view all status'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 15 |\u001b[39m             \u001b[36mawait\u001b[39m home\u001b[33m.\u001b[39mviewAllStatus()\u001b[33m;\u001b[39m\u001b[0m\n\n\u001b[2m    at HomeMenu.waitForLocator (C:\\Users\\LakshmiYaswanth\\Documents\\GitHub\\automation\\UI\\caliber\\lib\\webElementAction.ts:25:23)\u001b[22m\n\u001b[2m    at HomeMenu.assertTrue (C:\\Users\\LakshmiYaswanth\\Documents\\GitHub\\automation\\UI\\caliber\\lib\\webElementAction.ts:338:20)\u001b[22m\n\u001b[2m    at HomeMenu.validateHomePage (C:\\Users\\LakshmiYaswanth\\Documents\\GitHub\\automation\\UI\\caliber\\pages\\homePage.ts:79:20)\u001b[22m\n\u001b[2m    at C:\\Users\\LakshmiYaswanth\\Documents\\GitHub\\automation\\UI\\caliber\\tests\\homePage.test.ts:12:24\u001b[22m\n\u001b[2m    at TestTypeImpl._step (C:\\Users\\LakshmiYaswanth\\Documents\\GitHub\\automation\\UI\\caliber\\node_modules\\@playwright\\test\\lib\\testType.js:214:7)\u001b[22m\n\u001b[2m    at C:\\Users\\LakshmiYaswanth\\Documents\\GitHub\\automation\\UI\\caliber\\tests\\homePage.test.ts:10:9\u001b[22m\n\u001b[2m    at WorkerRunner._runTestWithBeforeHooks (C:\\Users\\LakshmiYaswanth\\Documents\\GitHub\\automation\\UI\\caliber\\node_modules\\@playwright\\test\\lib\\workerRunner.js:478:7)\u001b[22m",
+          "status": "failed",
+          "attachments": [
+            {
+              "name": "video",
+              "contentType": "video/webm",
+              "path": "data/b93fc2b6cb0e54a055dca42dc85ebd9985f684fa.webm"
+            },
+            {
+              "name": "trace",
+              "contentType": "application/zip",
+              "path": "data/c1fd0234567287ee56cb9fd6d379bad8976fafa4.zip"
+            },
+            {
+              "name": "screenshot",
+              "contentType": "image/png",
+              "path": "data/c82852a73ee21d1905ba85e716a72b93c5783628.png"
+            }
+          ]
+        }
+      ],
+      "ok": false
+    },
+    {
+      "testId": "447878b5b75485552db9baa741333ce20d451fcb-8736ea976400dc0ca88703c494684ae2eccb6690",
+      "title": "login as QC_user",
+      "projectName": "",
+      "location": {
+        "file": "tests/homePage.test.ts",
+        "line": 36,
+        "column": 5
+      },
+      "duration": 162442,
+      "outcome": "unexpected",
+      "path": [
+        "tests/homePage.test.ts:36",
+        "Validation for HomePage"
+      ],
+      "results": [
+        {
+          "duration": 162442,
+          "startTime": "2021-11-01T12:12:57.905Z",
+          "retry": 0,
+          "steps": [
+            {
+              "title": "Before Hooks",
+              "startTime": "2021-11-01T12:12:57.906Z",
+              "duration": 1191,
+              "steps": [
+                {
+                  "title": "browserContext.newPage",
+                  "startTime": "2021-11-01T12:12:58.687Z",
+                  "duration": 408,
+                  "steps": []
+                }
+              ]
+            },
+            {
+              "title": "To verify user navigate to signup url",
+              "startTime": "2021-11-01T12:12:59.098Z",
+              "duration": 47188,
+              "snippet": "\u001b[0m \u001b[90m 36 |\u001b[39m     test(\u001b[32m\"login as QC_user\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ login\u001b[33m,\u001b[39m home }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 37 |\u001b[39m         \u001b[36mawait\u001b[39m test\u001b[33m.\u001b[39mstep(\u001b[32m'To verify user navigate to signup url'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 38 |\u001b[39m             \u001b[36mawait\u001b[39m login\u001b[33m.\u001b[39mcaliberAppInitialize()\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [
+                {
+                  "title": "page.waitForNavigation",
+                  "startTime": "2021-11-01T12:12:59.196Z",
+                  "duration": 16830,
+                  "snippet": "\u001b[0m \u001b[90m  15 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([\u001b[0m\n\u001b[0m \u001b[90m  16 |\u001b[39m             \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForNavigation()\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                      ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  17 |\u001b[39m             \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mgoto(url)\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 16,
+                    "column": 23
+                  }
+                },
+                {
+                  "title": "page.goto(https://caliber2-staging.revaturelabs.com/sign-in)",
+                  "startTime": "2021-11-01T12:12:59.201Z",
+                  "duration": 16836,
+                  "snippet": "\u001b[0m \u001b[90m  16 |\u001b[39m             \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForNavigation()\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  17 |\u001b[39m             \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mgoto(url)\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                      ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  18 |\u001b[39m         ])\u001b[33m;\u001b[39m\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 17,
+                    "column": 23
+                  }
+                },
+                {
+                  "title": "locator.waitFor(//button[@class=\"btn button btn-block\"])",
+                  "startTime": "2021-11-01T12:13:26.046Z",
+                  "duration": 23,
+                  "snippet": "\u001b[0m \u001b[90m  24 |\u001b[39m     \u001b[36masync\u001b[39m waitForLocator(locator\u001b[33m:\u001b[39m \u001b[33mLocator\u001b[39m) {\u001b[0m\n\u001b[0m \u001b[90m  25 |\u001b[39m         \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39mwaitFor({ \u001b[32m'state'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'timeout'\u001b[39m\u001b[33m:\u001b[39m waitForElement })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                      ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  26 |\u001b[39m     }\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 25,
+                    "column": 23
+                  }
+                },
+                {
+                  "title": "page.waitForNavigation",
+                  "startTime": "2021-11-01T12:13:26.070Z",
+                  "duration": 4580,
+                  "snippet": "\u001b[0m \u001b[90m  39 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([\u001b[0m\n\u001b[0m \u001b[90m  40 |\u001b[39m             \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForNavigation()\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                      ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  41 |\u001b[39m             locator\u001b[33m.\u001b[39mclick()\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 40,
+                    "column": 23
+                  }
+                },
+                {
+                  "title": "locator.click(//button[@class=\"btn button btn-block\"])",
+                  "startTime": "2021-11-01T12:13:26.074Z",
+                  "duration": 3180,
+                  "snippet": "\u001b[0m \u001b[90m  40 |\u001b[39m             \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForNavigation()\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  41 |\u001b[39m             locator\u001b[33m.\u001b[39mclick()\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                    ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  42 |\u001b[39m         ])\u001b[33m;\u001b[39m\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 41,
+                    "column": 21
+                  }
+                },
+                {
+                  "title": "locator.waitFor(input[name=\"username\"])",
+                  "startTime": "2021-11-01T12:13:30.651Z",
+                  "duration": 24,
+                  "snippet": "\u001b[0m \u001b[90m  24 |\u001b[39m     \u001b[36masync\u001b[39m waitForLocator(locator\u001b[33m:\u001b[39m \u001b[33mLocator\u001b[39m) {\u001b[0m\n\u001b[0m \u001b[90m  25 |\u001b[39m         \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39mwaitFor({ \u001b[32m'state'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'timeout'\u001b[39m\u001b[33m:\u001b[39m waitForElement })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                      ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  26 |\u001b[39m     }\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 25,
+                    "column": 23
+                  }
+                },
+                {
+                  "title": "locator.fill(input[name=\"username\"])",
+                  "startTime": "2021-11-01T12:13:30.676Z",
+                  "duration": 27,
+                  "snippet": "\u001b[0m \u001b[90m 165 |\u001b[39m     \u001b[36masync\u001b[39m fillText(locator\u001b[33m:\u001b[39m \u001b[33mLocator\u001b[39m\u001b[33m,\u001b[39m text\u001b[33m:\u001b[39m any) {\u001b[0m\n\u001b[0m \u001b[90m 166 |\u001b[39m         \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39mfill(text)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                      ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 167 |\u001b[39m     }\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 166,
+                    "column": 23
+                  }
+                },
+                {
+                  "title": "locator.waitFor(input[name=\"password\"])",
+                  "startTime": "2021-11-01T12:13:30.704Z",
+                  "duration": 15,
+                  "snippet": "\u001b[0m \u001b[90m  24 |\u001b[39m     \u001b[36masync\u001b[39m waitForLocator(locator\u001b[33m:\u001b[39m \u001b[33mLocator\u001b[39m) {\u001b[0m\n\u001b[0m \u001b[90m  25 |\u001b[39m         \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39mwaitFor({ \u001b[32m'state'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'timeout'\u001b[39m\u001b[33m:\u001b[39m waitForElement })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                      ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  26 |\u001b[39m     }\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 25,
+                    "column": 23
+                  }
+                },
+                {
+                  "title": "locator.fill(input[name=\"password\"])",
+                  "startTime": "2021-11-01T12:13:30.720Z",
+                  "duration": 53,
+                  "snippet": "\u001b[0m \u001b[90m 165 |\u001b[39m     \u001b[36masync\u001b[39m fillText(locator\u001b[33m:\u001b[39m \u001b[33mLocator\u001b[39m\u001b[33m,\u001b[39m text\u001b[33m:\u001b[39m any) {\u001b[0m\n\u001b[0m \u001b[90m 166 |\u001b[39m         \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39mfill(text)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                      ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 167 |\u001b[39m     }\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 166,
+                    "column": 23
+                  }
+                },
+                {
+                  "title": "locator.check(input[name=\"chkRemember\"])",
+                  "startTime": "2021-11-01T12:13:30.774Z",
+                  "duration": 95,
+                  "snippet": "\u001b[0m \u001b[90m 121 |\u001b[39m         \u001b[36mif\u001b[39m (con) {\u001b[0m\n\u001b[0m \u001b[90m 122 |\u001b[39m             \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mremember\u001b[33m.\u001b[39mcheck()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 123 |\u001b[39m         } \u001b[36melse\u001b[39m {\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "pages/loginPage.ts",
+                    "line": 122,
+                    "column": 33
+                  }
+                },
+                {
+                  "title": "locator.waitFor(button:has-text(\"Sign In\"))",
+                  "startTime": "2021-11-01T12:13:30.870Z",
+                  "duration": 28,
+                  "snippet": "\u001b[0m \u001b[90m  24 |\u001b[39m     \u001b[36masync\u001b[39m waitForLocator(locator\u001b[33m:\u001b[39m \u001b[33mLocator\u001b[39m) {\u001b[0m\n\u001b[0m \u001b[90m  25 |\u001b[39m         \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39mwaitFor({ \u001b[32m'state'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'timeout'\u001b[39m\u001b[33m:\u001b[39m waitForElement })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                      ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  26 |\u001b[39m     }\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 25,
+                    "column": 23
+                  }
+                },
+                {
+                  "title": "page.waitForNavigation",
+                  "startTime": "2021-11-01T12:13:30.899Z",
+                  "duration": 5372,
+                  "snippet": "\u001b[0m \u001b[90m  39 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([\u001b[0m\n\u001b[0m \u001b[90m  40 |\u001b[39m             \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForNavigation()\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                      ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  41 |\u001b[39m             locator\u001b[33m.\u001b[39mclick()\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 40,
+                    "column": 23
+                  }
+                },
+                {
+                  "title": "locator.click(button:has-text(\"Sign In\"))",
+                  "startTime": "2021-11-01T12:13:30.900Z",
+                  "duration": 73,
+                  "snippet": "\u001b[0m \u001b[90m  40 |\u001b[39m             \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForNavigation()\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  41 |\u001b[39m             locator\u001b[33m.\u001b[39mclick()\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                    ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  42 |\u001b[39m         ])\u001b[33m;\u001b[39m\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 41,
+                    "column": 21
+                  }
+                }
+              ],
+              "location": {
+                "file": "tests/homePage.test.ts",
+                "line": 37,
+                "column": 20
+              }
+            },
+            {
+              "title": "TC_018,TC_034 To verify Home page",
+              "startTime": "2021-11-01T12:13:46.287Z",
+              "duration": 100529,
+              "snippet": "\u001b[0m \u001b[90m 42 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 43 |\u001b[39m         \u001b[36mawait\u001b[39m test\u001b[33m.\u001b[39mstep(\u001b[32m'TC_018,TC_034 To verify Home page'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 44 |\u001b[39m             \u001b[36mawait\u001b[39m login\u001b[33m.\u001b[39mvalidationCaliberVPPage()\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [
+                {
+                  "title": "locator.waitFor(#home-link)",
+                  "startTime": "2021-11-01T12:13:46.291Z",
+                  "duration": 176,
+                  "snippet": "\u001b[0m \u001b[90m  24 |\u001b[39m     \u001b[36masync\u001b[39m waitForLocator(locator\u001b[33m:\u001b[39m \u001b[33mLocator\u001b[39m) {\u001b[0m\n\u001b[0m \u001b[90m  25 |\u001b[39m         \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39mwaitFor({ \u001b[32m'state'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'timeout'\u001b[39m\u001b[33m:\u001b[39m waitForElement })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                      ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  26 |\u001b[39m     }\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 25,
+                    "column": 23
+                  }
+                },
+                {
+                  "title": "locator.isVisible(#home-link)",
+                  "startTime": "2021-11-01T12:13:46.469Z",
+                  "duration": 43,
+                  "snippet": "\u001b[0m \u001b[90m 338 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mwaitForLocator(locator)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 339 |\u001b[39m         \u001b[36mlet\u001b[39m visible \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39misVisible()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                    ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 340 |\u001b[39m         expect(visible)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 339,
+                    "column": 37
+                  }
+                },
+                {
+                  "title": "expect.toBeTruthy",
+                  "startTime": "2021-11-01T12:13:46.515Z",
+                  "duration": 0,
+                  "snippet": "\u001b[0m \u001b[90m 339 |\u001b[39m         \u001b[36mlet\u001b[39m visible \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39misVisible()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 340 |\u001b[39m         expect(visible)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                        ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 341 |\u001b[39m     }\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 340,
+                    "column": 25
+                  }
+                },
+                {
+                  "title": "locator.waitFor(#manage-link)",
+                  "startTime": "2021-11-01T12:13:46.516Z",
+                  "duration": 25,
+                  "snippet": "\u001b[0m \u001b[90m  24 |\u001b[39m     \u001b[36masync\u001b[39m waitForLocator(locator\u001b[33m:\u001b[39m \u001b[33mLocator\u001b[39m) {\u001b[0m\n\u001b[0m \u001b[90m  25 |\u001b[39m         \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39mwaitFor({ \u001b[32m'state'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'timeout'\u001b[39m\u001b[33m:\u001b[39m waitForElement })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                      ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  26 |\u001b[39m     }\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 25,
+                    "column": 23
+                  }
+                },
+                {
+                  "title": "locator.isVisible(#manage-link)",
+                  "startTime": "2021-11-01T12:13:46.541Z",
+                  "duration": 28,
+                  "snippet": "\u001b[0m \u001b[90m 338 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mwaitForLocator(locator)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 339 |\u001b[39m         \u001b[36mlet\u001b[39m visible \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39misVisible()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                    ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 340 |\u001b[39m         expect(visible)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 339,
+                    "column": 37
+                  }
+                },
+                {
+                  "title": "expect.toBeTruthy",
+                  "startTime": "2021-11-01T12:13:46.570Z",
+                  "duration": 0,
+                  "snippet": "\u001b[0m \u001b[90m 339 |\u001b[39m         \u001b[36mlet\u001b[39m visible \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39misVisible()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 340 |\u001b[39m         expect(visible)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                        ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 341 |\u001b[39m     }\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 340,
+                    "column": 25
+                  }
+                },
+                {
+                  "title": "locator.waitFor(text=Settings)",
+                  "startTime": "2021-11-01T12:13:46.571Z",
+                  "duration": 71,
+                  "snippet": "\u001b[0m \u001b[90m  24 |\u001b[39m     \u001b[36masync\u001b[39m waitForLocator(locator\u001b[33m:\u001b[39m \u001b[33mLocator\u001b[39m) {\u001b[0m\n\u001b[0m \u001b[90m  25 |\u001b[39m         \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39mwaitFor({ \u001b[32m'state'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'timeout'\u001b[39m\u001b[33m:\u001b[39m waitForElement })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                      ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  26 |\u001b[39m     }\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 25,
+                    "column": 23
+                  }
+                },
+                {
+                  "title": "locator.isVisible(text=Settings)",
+                  "startTime": "2021-11-01T12:13:46.644Z",
+                  "duration": 84,
+                  "snippet": "\u001b[0m \u001b[90m 338 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mwaitForLocator(locator)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 339 |\u001b[39m         \u001b[36mlet\u001b[39m visible \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39misVisible()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                    ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 340 |\u001b[39m         expect(visible)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 339,
+                    "column": 37
+                  }
+                },
+                {
+                  "title": "expect.toBeTruthy",
+                  "startTime": "2021-11-01T12:13:46.729Z",
+                  "duration": 0,
+                  "snippet": "\u001b[0m \u001b[90m 339 |\u001b[39m         \u001b[36mlet\u001b[39m visible \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39misVisible()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 340 |\u001b[39m         expect(visible)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                        ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 341 |\u001b[39m     }\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 340,
+                    "column": 25
+                  }
+                },
+                {
+                  "title": "locator.waitFor(//a[@id=\"assess-link\"])",
+                  "startTime": "2021-11-01T12:13:46.731Z",
+                  "duration": 100084,
+                  "snippet": "\u001b[0m \u001b[90m  24 |\u001b[39m     \u001b[36masync\u001b[39m waitForLocator(locator\u001b[33m:\u001b[39m \u001b[33mLocator\u001b[39m) {\u001b[0m\n\u001b[0m \u001b[90m  25 |\u001b[39m         \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39mwaitFor({ \u001b[32m'state'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'timeout'\u001b[39m\u001b[33m:\u001b[39m waitForElement })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                      ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  26 |\u001b[39m     }\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "lib/webElementAction.ts",
+                    "line": 25,
+                    "column": 23
+                  },
+                  "error": "locator.waitFor: Timeout 100000ms exceeded.\n=========================== logs ===========================\nwaiting for selector \"//a[@id=\"assess-link\"]\" to be visible\n============================================================"
+                }
+              ],
+              "location": {
+                "file": "tests/homePage.test.ts",
+                "line": 43,
+                "column": 20
+              },
+              "error": "locator.waitFor: Timeout 100000ms exceeded.\n=========================== logs ===========================\nwaiting for selector \"//a[@id=\"assess-link\"]\" to be visible\n============================================================"
+            },
+            {
+              "title": "After Hooks",
+              "startTime": "2021-11-01T12:15:26.816Z",
+              "duration": 13530,
+              "steps": [
+                {
+                  "title": "browserContext.close",
+                  "startTime": "2021-11-01T12:15:28.668Z",
+                  "duration": 11639,
+                  "steps": []
+                }
+              ]
+            }
+          ],
+          "error": "locator.waitFor: Timeout 100000ms exceeded.\n=========================== logs ===========================\nwaiting for selector \"//a[@id=\"assess-link\"]\" to be visible\n============================================================\n\n\u001b[0m \u001b[90m 42 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 43 |\u001b[39m         \u001b[36mawait\u001b[39m test\u001b[33m.\u001b[39mstep(\u001b[32m'TC_018,TC_034 To verify Home page'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 44 |\u001b[39m             \u001b[36mawait\u001b[39m login\u001b[33m.\u001b[39mvalidationCaliberVPPage()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 45 |\u001b[39m             \u001b[36mawait\u001b[39m home\u001b[33m.\u001b[39mvalidateHomePage()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 46 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 47 |\u001b[39m         \u001b[36mawait\u001b[39m test\u001b[33m.\u001b[39mstep(\u001b[32m'TC_008,TC_009,TC_010,TC_011,TC_012,TC_024 To verify view all status'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\n\u001b[2m    at LoginPage.waitForLocator (C:\\Users\\LakshmiYaswanth\\Documents\\GitHub\\automation\\UI\\caliber\\lib\\webElementAction.ts:25:23)\u001b[22m\n\u001b[2m    at LoginPage.assertTrue (C:\\Users\\LakshmiYaswanth\\Documents\\GitHub\\automation\\UI\\caliber\\lib\\webElementAction.ts:338:20)\u001b[22m\n\u001b[2m    at LoginPage.validationCaliberVPPage (C:\\Users\\LakshmiYaswanth\\Documents\\GitHub\\automation\\UI\\caliber\\pages\\loginPage.ts:134:20)\u001b[22m\n\u001b[2m    at C:\\Users\\LakshmiYaswanth\\Documents\\GitHub\\automation\\UI\\caliber\\tests\\homePage.test.ts:44:13\u001b[22m\n\u001b[2m    at TestTypeImpl._step (C:\\Users\\LakshmiYaswanth\\Documents\\GitHub\\automation\\UI\\caliber\\node_modules\\@playwright\\test\\lib\\testType.js:214:7)\u001b[22m\n\u001b[2m    at C:\\Users\\LakshmiYaswanth\\Documents\\GitHub\\automation\\UI\\caliber\\tests\\homePage.test.ts:43:9\u001b[22m\n\u001b[2m    at WorkerRunner._runTestWithBeforeHooks (C:\\Users\\LakshmiYaswanth\\Documents\\GitHub\\automation\\UI\\caliber\\node_modules\\@playwright\\test\\lib\\workerRunner.js:478:7)\u001b[22m",
+          "status": "failed",
+          "attachments": [
+            {
+              "name": "video",
+              "contentType": "video/webm",
+              "path": "data/27943d4648c6b480f7906f7cff765586e432dd15.webm"
+            },
+            {
+              "name": "trace",
+              "contentType": "application/zip",
+              "path": "data/5505cbfef3f2c897cfbdc214427b165b16f2f8e5.zip"
+            },
+            {
+              "name": "screenshot",
+              "contentType": "image/png",
+              "path": "data/bf5062e7fd947976f6ae7a0f2f63b146f088a9a2.png"
+            }
+          ]
+        }
+      ],
+      "ok": false
+    }
+  ]
+}

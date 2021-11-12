@@ -1,0 +1,39 @@
+{
+  "testData": {
+    "days": [
+       "Monday",
+       "Tuesday",
+       "Wednesday",
+       "Thursday",
+       "Friday",
+       "Saturday",
+       "Sunday"
+    ],
+    "hrs": {
+      "hr": "8",
+      "hrs":"9"
+    },
+    "time": {
+      "time1": "10:00",
+      "time2": "8:00"
+    },
+    "project": {
+      "prj1": "Pubhub 100(India) - (Version - 17)"
+    },
+    "quizzes": {
+      "names": [
+        "1707 Jul24 Java - Algorithms ( ver-1)",
+        "1707 Jul24 Java - REST ( ver-1)",
+        "1709JTA_TJAC_Test3 ( ver-1)",
+        "AngularJS 2 Attribute Directives ( ver-1)"
+      ]
+    }
+  }
+}
+
+
+
+
+
+
+
